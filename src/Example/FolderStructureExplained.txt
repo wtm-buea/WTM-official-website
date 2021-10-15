@@ -1,8 +1,8 @@
 For this, we will take the landing page as an example
 
 # The landing page has 6 different sections.
-    *So we will have a folder called Landing Page.
-    *The landingPage folder will have 6 folders in it for section1 to section6
+    *So we  have a folder called Components with a Landing Page folder in it.
+    *The landingPage folder will have 6 folders in it for section1 to section6.
     *Each contributor is required to create a folder in the section they are working on. The folder will have a jsx file and a css file.
     *Import your jsx file in the App.js when your done working (Ensure the mobile responsiveness of the component your working on)
     *Make a PR. Your code will be reviewed and if all is okay, it'll be merged to the main branch.
