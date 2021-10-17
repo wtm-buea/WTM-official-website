@@ -63,4 +63,4 @@ Go ahead, contribute and have fun.
 
 You will find an Example folder in the code structure which explain how your code should be
 
-Happy Coding blush
+Happy Coding 😊
