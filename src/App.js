@@ -1,8 +1,7 @@
 import React from "react";
-import MainComp3 from "./components/LandingPage/ComponentThree/MainComp3";
-import Hero from "./components/LandingPage/CompnentTwo/hero/hero.jsx";
+import Example from "./Example/Example";
 function App() {
-  return <Hero />;
+  return <Example />;
 }
 
 export default App;
