@@ -7,7 +7,7 @@ function App() {
   AOS.init();
   return (
     <div data-aos="fade-right" data-aos-delay="500">
-      hey alice ndeh
+      hey
     </div>
   );
 }
