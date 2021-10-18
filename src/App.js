@@ -1,7 +1,10 @@
 import React from "react";
-import Example from "./Example/Example";
+//import Example from "./Example/Example";
+import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
+
+
 function App() {
-  return <Example />;
+  return <Hero/>;
 }
 
 export default App;
