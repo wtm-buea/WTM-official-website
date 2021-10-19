@@ -1,15 +1,11 @@
 import React from "react";
-import Example from "./Example/Example";
-import AOS from "aos";
-import "aos/dist/aos.css";
+//import Example from "./Example/Example";
+import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
+
 
 function App() {
-  AOS.init();
-  return (
-    <div data-aos="fade-right" data-aos-delay="500">
-      hey
-    </div>
-  );
+  return <Hero/>;
+
 }
 
 export default App;
