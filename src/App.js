@@ -1,11 +1,9 @@
 import React from "react";
-import Example from "./Example/Example";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Comp1 from "./components/LandingPage/ComponentOne/Navbar/Navbar";
+//import Example from "./Example/Example";
+import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
+
 function App() {
-  AOS.init();
-  return <Comp1 />;
+  return <Hero />;
 }
 
 export default App;
