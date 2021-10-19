@@ -1,21 +1,17 @@
 import React from "react";
 import Example from "./Example/Example";
 
-import Navbar from "./components/LandingPage/ComponentOne/Navbar/Navbar"
-import MainComp3 from "./components/LandingPage/ComponentThree/MainComp3"
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-import LastComponent from "./components/LandingPage/LastComponent/LastComponent"
-
-//import { MainComp3 } from "components/LandingPage/ComponentThree/MainComp3"
 function App() {
-
+  AOS.init();
   return (
-    <>
+    <div data-aos="fade-right" data-aos-delay="500">
+      hey
+    </div>
+  );
 
-      <LastComponent />
-    </>
-  )
-  //return <Example />;
 }
 
 export default App;
