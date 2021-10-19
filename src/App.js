@@ -1,7 +1,9 @@
 import React from "react";
+//import Example from "./Example/Example";
+import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
 
 function App() {
-  return <div className="bg-primary">Happy </div>;
+  return <Hero />;
 }
 
 export default App;
