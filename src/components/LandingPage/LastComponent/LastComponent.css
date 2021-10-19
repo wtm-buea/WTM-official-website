@@ -1,0 +1,53 @@
+.wrapper {
+  background: url("../../../Assets/illustrations/background_transparent.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 981px;
+  padding: 50px;
+  margin-bottom: 30px;
+  z-index: -1;
+}
+
+.underline-bar {
+  width: 172px;
+  height: 10px;
+  background-color: rgb(28, 233, 182);
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.content {
+  padding: 100px;
+  /* font-family: Roboto; */
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.card_section {
+  text-align: center;
+  margin-top: 50px;
+  opacity: 1;
+}
+
+.card_icon {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 16px;
+}
+
+.card_section .card {
+}
