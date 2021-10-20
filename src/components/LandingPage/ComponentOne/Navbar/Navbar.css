@@ -1,0 +1,7 @@
+.bg-transparent{
+background: transparent !important;
+}
+.bg-transparent.scrolled{
+    background: white;
+
+} 
