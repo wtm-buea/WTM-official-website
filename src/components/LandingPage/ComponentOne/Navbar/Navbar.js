@@ -1,12 +1,8 @@
-import React,  { useState, useEffect } from "react";
-
+import React from "react";
 import Wtmlogo from '../../../../Assets/icons/logo.png';
 
-(window).scroll(function(){
-('nav').toggleClass('scrolled', (this).scrollTop() > 800)
-});
-
 function Navbar(){
+
   (window).scroll(function(){
     ('nav').toggleClass('scrolled', (this).scrollTop() > 800)
     });
