@@ -1,11 +1,8 @@
 import React from "react";
-import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
+//import Example from "./Example/Example";
+import Comp4 from "./components/LandingPage/ComponentFour/MainComp4";
 function App() {
-  return (
-    <div>
-      <Hero />
-    </div>
-  );
+  return <Comp4 />;
 }
 
 export default App;
