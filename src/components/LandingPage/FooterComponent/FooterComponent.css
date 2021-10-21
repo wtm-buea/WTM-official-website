@@ -1,0 +1,61 @@
+.wrapper {
+  background-color: #1b2a4e;
+  min-height: 824px;
+}
+
+.gradient-bar {
+  height: 45px;
+  z-index: 999;
+  background: linear-gradient(91.05deg, #1ce9b6 -21.27%, #4cadf6 117.52%);
+}
+
+div {
+  /* border: 1px solid black; */
+}
+
+.quote {
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.quote-author {
+  color: #1ce9b6;
+  font-size: 2rem;
+}
+
+.buea {
+  color: #7f8185;
+}
+
+.quick-links {
+  color: white;
+}
+
+.links {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.links li {
+  margin: 30px 0;
+}
+
+.dashed-border {
+  border-bottom: 5px dashed #c4c4c4;
+  padding: 20px 0;
+}
+
+.contact-info {
+  margin: 10px 0;
+}
+
+.social {
+  max-height: 48px;
+  max-width: 48px;
+}
+
+.quote-box {
+  background-color: #495573;
+  box-shadow: 22px 22px 120px rgba(0, 102, 255, 0.25);
+}
