@@ -1,6 +1,6 @@
 import React from 'react'
 import './vision.css'
-//import fig from '../../../../Assets/illustrations/3081783.jpg'
+import img2 from "../../../../Assets/illustrations/3081783.jpg";
 
 function Vision() {
     return (
@@ -17,7 +17,7 @@ function Vision() {
                             &nbsp; &nbsp; <button type="button" className="btn rounded-0 btn-lg btn-outline-info">Contact Us</button>
                     </div>
                     <div className="col-md-6">
-                         <img src="../../../../Assets/illustrations/3081783.jpg" class="img-fluid" alt="Illustration" />
+                         <img src={img2} class="img-fluid" alt="Illustration" />
                     </div>
                 </div>
             </div>
