@@ -5,10 +5,10 @@ import Vision from "./components/LandingPage/ComponentSix/vision/vision";
 
 function App() {
   return (
-    <>
+    <div>
     <Hero />
     <Vision />
-    </>
+    </div>
   )
 }
 
