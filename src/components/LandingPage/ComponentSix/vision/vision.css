@@ -1,0 +1,25 @@
+
+.stroke{
+    font-size: 6rem;
+    color: rgb(6, 243, 243);
+    margin-top: 0px;
+}
+h2{
+    line-height: 0.02px;
+    margin-bottom: -50px;
+}
+p{
+    margin-top: -10px;
+    color: rgb(112, 110, 108);
+    margin-bottom: 50px;
+    font-size: large;
+    font-kerning: none;
+}
+.container{
+    margin-bottom: 100px;
+}
+.btn-primary{
+    border-color: rgba(96, 169, 252, 0.959);
+    background: rgba(96, 169, 252, 0.959);
+    
+}
