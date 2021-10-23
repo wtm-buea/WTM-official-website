@@ -5,3 +5,9 @@ background: transparent !important;
     background: white;
 
 } 
+.nav-link{
+    font-size: 30px !important;
+    padding: left 2px !important;
+
+
+}

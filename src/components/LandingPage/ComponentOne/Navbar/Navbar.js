@@ -13,13 +13,13 @@ function Navbar(){
         <a class="navbar-brand" href="#">
         <img src={Wtmlogo} style={{width:200, height:70}}></img>
         </a>
-        <ul class="navbar-custom navbar-nav ml-auto">
+        <ul className="nav-link"class="navbar-custom navbar-nav ml-auto">
           <li class="nav-item active"><a class="nav-link">Home<span class="sr-only">(current)</span></a></li>
           <li class="nav-item"><a class="nav-link">Events</a></li>
           <li class="nav-item"><a class="nav-link">Success Stories</a></li>
         </ul>
  
-      </nav>
+      </nav> 
     </div>
   );
 }
