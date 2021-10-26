@@ -1,6 +1,7 @@
 .wrapper {
   background-color: #1b2a4e;
-  min-height: 824px;
+  min-height: 580px;
+  
 }
 
 .gradient-bar {
@@ -16,12 +17,12 @@ div {
 .quote {
   display: block;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1;
 }
 
 .quote-author {
   color: #1ce9b6;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .buea {
@@ -48,6 +49,19 @@ div {
 
 .contact-info {
   margin: 10px 0;
+  
+}
+
+.contact-info > div {
+  padding: 10px 0;
+}
+
+.contact-info > div img{
+  height: 25px;
+  width: 25px;
+}
+.contact-info > div span{
+  margin-left: 10px;
 }
 
 .social {
@@ -59,3 +73,29 @@ div {
   background-color: #495573;
   box-shadow: 22px 22px 120px rgba(0, 102, 255, 0.25);
 }
+
+.social-container {
+  margin: 0 auto;
+
+}
+
+.social-container img {
+  margin: 15px 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.dashed {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.dashed > div {
+  height: 5px;
+  width: 50px;
+  background-color:#c4c4c4;
+  
+
+}
+
+
