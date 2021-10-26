@@ -1,31 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Comp2.css";
-//import { Wave } from "react-animated-text";
-//import { Random } from "react-animated-text";
+import img3 from "C:/Users/ANGEL/Desktop/WTM-official-website/src/Assets/illustrations/3187910.jpg";
 
 function Community() {
-  const [pause, setpause] = useState(false);
-  setTimeout(() => {
-    setpause(true);
-  }, 1000);
+ 
   return (
-    <div className="jumbotron text-center">
-    <div className="container">
-      <p className="p-tag bg-secondary">
-      The second section is the section containing Community Building. 
-      You are required to create this section and make it mobile responsive. 
-      Remember to put everything in a bootstrap container.
-      </p>
-      {/* <Wave text="EXAMPLE TEXT" /> */}
-      {/* <Wave text="EXAMPLE TEXT" effect="" effectChange={2.2} /> */}
-      {/* <Random
-        text="sup alice"
-        paused={pause}
-        effect="verticalFadeOut"
-        effectDirection="down"
-        effectChange={7.0}
-      /> */}
-    </div>
+    <div>
+      <div className="containers">
+          <div className="row">
+              <div className="column">
+                <img src={img3} alt="Illustration"/>
+              </div>
+
+              <div className="column">
+                      <h2 className="display-5 text-left font-weight-bold">Community Building</h2>
+                      
+                      <p className="text-left font-weight-bold p-tag">Giving back to the community is something we strongly beleive in,
+                      so we organise events and give opportunities to ladies to learn and grow in the tech field.
+
+                      </p>
+                    
+              </div>
+              
+          </div>
+      </div>
     </div>
   );
 }
