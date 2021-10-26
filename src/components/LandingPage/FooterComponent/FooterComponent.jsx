@@ -57,7 +57,7 @@ export default function FooterComponent() {
 
                     <h2 className="quick-links">Stay in touch</h2>
 
-                    <div className="quick-links">Women tech makers Buea</div>
+                    <div className="quick-links font-weight-bolder">Women tech makers Buea</div>
                     <div className="dashed">
                         <div></div>
                         <div></div>
@@ -71,6 +71,7 @@ export default function FooterComponent() {
                             <div>
                                 <img src={phoneIcon} className="img img-fluid" alt="phone" />
                                 <span className="quick-links">675959794</span>
+                                
                             </div>
                              <div>
                                 <img src={emailIcon} className="img img-fluid" alt="phone" />
@@ -82,7 +83,7 @@ export default function FooterComponent() {
                             </div>
                     </div>
 
-                    <div className="quick-links">Want to keep in touch with us ?</div>
+                    <div className="quick-links font-weight-bolder">Want to keep in touch with us ?</div>
                     <div className="dashed">
                         <div></div>
                         <div></div>

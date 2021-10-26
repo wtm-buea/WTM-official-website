@@ -31,6 +31,7 @@ div {
 
 .quick-links {
   color: white;
+
 }
 
 .links {
@@ -48,12 +49,14 @@ div {
 }
 
 .contact-info {
-  margin: 10px 0;
+  margin: 20px 0px;
   
 }
 
 .contact-info > div {
   padding: 10px 0;
+  display: flex;
+  
 }
 
 .contact-info > div img{
@@ -75,7 +78,8 @@ div {
 }
 
 .social-container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  display: flex;
 
 }
 
