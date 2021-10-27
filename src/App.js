@@ -14,7 +14,7 @@ function App() {
     
       <div>
     <Hero />
-    <COmp3/>
+    <COmp3 />
     <Comp4 />
     <ComponentFive />
     <Vision />
