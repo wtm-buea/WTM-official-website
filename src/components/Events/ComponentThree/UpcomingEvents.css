@@ -1,0 +1,54 @@
+.container{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+h1{
+    padding-bottom: 5%;
+}
+h5{
+    padding-bottom: 5%;
+    color: rgba(92, 33, 18, 0.712);
+}
+.tex{
+    color: rgba(5, 56, 104, 0.877);
+}
+.word{
+    padding-left: 2%;
+}
+h4{
+    padding-top: 3.5%;
+    padding-bottom: 2.5%;
+}
+.words{
+    font-size: 180%;
+}
+.row{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.events{
+    padding-left: 65%;
+    
+}
+
+.rectangle1{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(6, 243, 192);
+    margin-top: 0px;
+    margin-left: 48%;
+}
+.texts{
+    margin-bottom: 0%;  
+}
+a{
+    color: black;
+}
+img{
+    box-shadow: 20px 20px 20px #ccc;
+}
+h1{
+    background: linear-gradient(to right, rgb(10, 235, 167), rgb(3, 7, 253)) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

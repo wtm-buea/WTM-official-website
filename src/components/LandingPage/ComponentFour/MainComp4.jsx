@@ -3,12 +3,12 @@ import Comp4 from "./Comp4";
 function MainComp4() {
   return (
     <div
+      className="container"
       style={{
         width: "100%",
-        backgroundColor: "#EFEFEF",
       }}
     >
-      <div className="container">
+      <div>
         <Comp4 />
       </div>
     </div>
