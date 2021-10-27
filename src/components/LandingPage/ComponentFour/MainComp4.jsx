@@ -6,7 +6,6 @@ function MainComp4() {
       className="container"
       style={{
         width: "100%",
-        backgroundColor: "red",
       }}
     >
       <div>
