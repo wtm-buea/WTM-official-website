@@ -1,14 +1,15 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 import img3 from "../../../Assets/images/PN5A9405.JPG";
 import './UpcomingEvents.css';
 
 function UpcomingEvents() {
     return (
-        <div>
+        <div class="Event" >
             
             <div className="container bg-light">
-            <div className="events"><p className="texts"><Link to='/PastEvents'>Past events</Link>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<Link to='/UpcomingEvents'>Upcoming Events</Link></p>
+            <div className="events"><p className="texts"><Link to='/PastEvents'>Past events</Link>&nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<Link to='/UpcomingEvents'>Upcoming Events</Link></p>
             <div className="rectangle1"></div>
             </div>
                 <h1 className="display-1 font-weight-normal">Upcoming events</h1>

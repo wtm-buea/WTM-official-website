@@ -1,54 +1,84 @@
-.container{
+.Event .container{
     padding-top: 5%;
     padding-bottom: 1%;
 }
-h1{
+.Event h1{
     padding-bottom: 5%;
 }
-h5{
+.Event h5{
     padding-bottom: 5%;
     color: rgba(92, 33, 18, 0.712);
 }
-.tex{
+.Event .tex{
     color: rgba(5, 56, 104, 0.877);
 }
-.word{
+.Event .word{
     padding-left: 2%;
 }
-h4{
+.Event h4{
     padding-top: 3.5%;
     padding-bottom: 2.5%;
 }
-.words{
+.Event .words{
     font-size: 180%;
 }
-.row{
+.Event .row{
     padding-top: 2%;
     padding-bottom: 3%;
 }
-.events{
-    padding-left: 65%;
-    
-}
 
-.rectangle1{
+
+.Event .rectangle1{
     width: 50px;
     height: 8px;
     background-color: rgb(6, 243, 192);
     margin-top: 0px;
-    margin-left: 48%;
 }
-.texts{
+
+.Event .texts{
     margin-bottom: 0%;  
 }
-a{
+.Event a{
     color: black;
 }
-img{
+.Event img{
     box-shadow: 20px 20px 20px #ccc;
 }
-h1{
+.Event h1{
     background: linear-gradient(to right, rgb(10, 235, 167), rgb(3, 7, 253)) ;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 789px){
+    .Event .rectangle1{
+        margin-left: 50%;
+    }
+    .Event .events{
+        padding-left: 70%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .Event .rectangle1{
+        margin-left: 47%;
+    }
+    .Event .events{
+        padding-left: 70%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .Event .rectangle1{
+        margin-left: 50%;
+    }
+    .Event .events{
+        padding-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Event .events{
+        padding-left: 25%;
+    }
+    .Event .rectangle1{
+        margin-left: 50%;
+    }
 }

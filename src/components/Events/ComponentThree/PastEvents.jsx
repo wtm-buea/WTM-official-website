@@ -6,9 +6,10 @@ import {Link} from 'react-router-dom';
 
 function PastEvents() {
     return (
-        <div>
+        <div class="Event1">
            <div className="container bg-light">
-            <div className="events"><p className="texts"><Link to='/PastEvents'>Past events</Link>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<Link to='/UpcomingEvents'>Upcoming Events</Link></p>
+            <div className="events"><p className="texts"><Link to='/PastEvents'>Past events</Link>&nbsp; &nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp;<Link to='/UpcomingEvents'>Upcoming Events</Link></p>
             <div className="rectangle"></div>
             </div>
                 <h1 className="display-1 font-weight-normal">Past events</h1>
