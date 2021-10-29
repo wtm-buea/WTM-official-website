@@ -21,7 +21,7 @@ export default function Comp4() {
     },
   ];
   return (
-    <div className="row mt-5" style={{}}>
+    <div className="row mt-5  bg-warning">
       <div className="col-md-6 col-12">
         <div>
           <p

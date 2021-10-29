@@ -5,9 +5,10 @@ function Comp3Section1() {
     <div className=" mb-5">
       <div className="d-flex flex-column  align-items-md-center">
         <p
-          className="font-weight-bold"
+          // className=
           style={{
             fontSize: "35px",
+            fontWeight: "380",
           }}
         >
           About Us
@@ -24,8 +25,9 @@ function Comp3Section1() {
       <div
         className="mt-5 text-md-center"
         style={{
-          fontSize: "25px",
+          fontSize: "23px",
           //   textAlign: "center",
+          fontWeight: "300",
         }}
       >
         <p>

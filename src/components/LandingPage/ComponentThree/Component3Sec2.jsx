@@ -25,9 +25,10 @@ function Comp3Section2() {
     <div>
       <div className="d-flex flex-column  align-items-md-center">
         <p
-          className="font-weight-bold"
+          // className="font-weight-bold"
           style={{
             fontSize: "35px",
+            fontWeight: "370",
           }}
         >
           What we offer
@@ -46,7 +47,16 @@ function Comp3Section2() {
           return (
             <div className="col-md-4 col-12 ">
               <img src={data.img} width="30px" height="50px" />
-              <h3 className="font-weight-bold">{data.title}</h3>
+              <h3
+                className=""
+                // className="font-weight-bold"
+                style={{
+                  fontSize: "25px",
+                  fontWeight: "450",
+                }}
+              >
+                {data.title}
+              </h3>
               <p>{data.body}</p>
             </div>
           );
