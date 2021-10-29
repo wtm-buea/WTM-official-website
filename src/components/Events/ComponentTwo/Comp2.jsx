@@ -1,6 +1,6 @@
 import React from "react";
 import "./Comp2.css";
-import img3 from "C:/Users/ANGEL/Desktop/WTM-official-website/src/Assets/illustrations/3187910.jpg";
+import img3 from "../../../../Assets/illustrations/3187910.jpg";
 
 function Community() {
  
