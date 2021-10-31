@@ -1,0 +1,53 @@
+.Event1 .container{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.Event1 h1{
+    padding-bottom: 5%;
+}
+.Event1 h5{
+    padding-bottom: 5%;
+    color: rgba(92, 33, 18, 0.712);
+}
+.Event1 .tex{
+    color: rgba(5, 56, 104, 0.877);
+}
+.Event1 .word{
+    padding-left: 2%;
+}
+.Event1 h4{
+    padding-top: 3.5%;
+    padding-bottom: 2.5%;
+}
+.Event1 .words{
+    font-size: 180%;
+}
+.Event1 .row{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.Event1 .events{
+    padding-left: 65%;
+    
+}
+
+.Event1 .rectangle{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(6, 243, 192);
+    margin-top: 0px;
+}
+.Event1 .texts{
+    margin-bottom: 0%;  
+}
+.Event1 a{
+    color: black;
+}
+.Event1 img{
+    box-shadow: 20px 20px 20px #ccc;
+}
+.Event1 h1{
+    background: linear-gradient(to right, rgb(10, 235, 167), rgb(3, 7, 253)) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

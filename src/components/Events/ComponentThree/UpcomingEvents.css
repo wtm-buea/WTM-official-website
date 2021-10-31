@@ -1,0 +1,84 @@
+.Event .container{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.Event h1{
+    padding-bottom: 5%;
+}
+.Event h5{
+    padding-bottom: 5%;
+    color: rgba(92, 33, 18, 0.712);
+}
+.Event .tex{
+    color: rgba(5, 56, 104, 0.877);
+}
+.Event .word{
+    padding-left: 2%;
+}
+.Event h4{
+    padding-top: 3.5%;
+    padding-bottom: 2.5%;
+}
+.Event .words{
+    font-size: 180%;
+}
+.Event .row{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.Event .rectangle1{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(6, 243, 192);
+    margin-top: 0px;
+}
+
+.Event .texts{
+    margin-bottom: 0%;  
+}
+.Event a{
+    color: black;
+}
+.Event img{
+    box-shadow: 20px 20px 20px #ccc;
+}
+.Event h1{
+    background: linear-gradient(to right, rgb(10, 235, 167), rgb(3, 7, 253)) ;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 789px){
+    .Event .rectangle1{
+        margin-left: 50%;
+    }
+    .Event .events{
+        padding-left: 70%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .Event .rectangle1{
+        margin-left: 47%;
+    }
+    .Event .events{
+        padding-left: 70%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .Event .rectangle1{
+        margin-left: 50%;
+    }
+    .Event .events{
+        padding-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Event .events{
+        padding-left: 25%;
+    }
+    .Event .rectangle1{
+        margin-left: 50%;
+    }
+}
