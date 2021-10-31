@@ -81,6 +81,7 @@ function ComponentFive() {
                     className="bg-white ml-4 mb-3 pb-5 col-sm-3 col-7 d-flex flex-column align-items-lg-center   col-md-3 mr-3 pt-5"
                     style={{
                       borderRadius: 10,
+                      boxShadow: "1px 2px 5px rgba(0,0,0,1.25)",
                     }}
                   >
                     <img src={data.icon} className="img" />
