@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        color: #000;
+        font-size: 32px;
+        padding: .5rem;
+    }
+
+    .navWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        z-index: 1000;
+    }
+
+    .text {
+        font-size: 2rem;
+        padding-left: 3rem;
+        color: #121212;
+    }
+
+    .allComponents {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+        align-items: space-between;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navWrapper {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .navWrapper {
+        width: 90%;
+    }
+
+}
