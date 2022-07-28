@@ -13,7 +13,7 @@ We call on all ladies in the WTM Buea to contribute to this master piece being b
 
 2. Clone your forked copy of the project.
 
-git clone https://github.com/your_username/WTM-official-website.git
+```git clone https://github.com/your_username/WTM-official-website.git```
 
 Navigate to the project directory file_folder .
 cd WTM-official-website
