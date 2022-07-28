@@ -40,6 +40,7 @@ function SecondSection() {
                   src={item.image}
                   width="60px"
                   height="60px"
+                  alt="item-img"
                 />
               </div>
               <p
