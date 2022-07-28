@@ -11,10 +11,10 @@ function Hero() {
               Women shouldn't be afraid to put themselves forward.
             </h1>
             <h4 className="text">
-              WTM <i class="bi-star-fill"></i> Buea
+              WTM <i className="bi-star-fill"></i> Buea
             </h4>
             <h4 className="text">
-              <i class="bi bi-dash-lg"></i> 2015 <i class="bi bi-dash-lg"></i>
+              <i className="bi bi-dash-lg"></i> 2015 <i className="bi bi-dash-lg"></i>
             </h4>
           </div>
         </div>
