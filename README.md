@@ -7,45 +7,31 @@ official website for Women Tech Makers Buea members to build during the period o
 Within this project, we will be building the official website for Women Tech Maker Buea.
 We call on all ladies in the WTM Buea to contribute to this master piece being built for the community.
 
-# Steps For Making A Pull Request
+# Github workflow for code contribution
 
 1. Fork this repository.
 
-2. Clone your forked copy of the project.
+2. Clone your forked copy of the project with ```git clone https://github.com/your_username/WTM-official-website.git```
 
-```git clone https://github.com/your_username/WTM-official-website.git```
+3. Navigate to the project directory (folder) with ```cd WTM-official-website```
 
-Navigate to the project directory file_folder .
-cd WTM-official-website
+4. Add the original repository as upstream with: ```git remote add upstream https://github.com/wtm-buea/WTM-official-website.git```
+    #### Note
+    <b>-</b> Check the remote for this repository with ``` git remote -v ``` <br>
+    <b>-</b> Always take a pull from the upstream repo into your master branch to keep it at par with the project: ```git pull upstream main```
+  
+5. Perform your changes to the code base and track the changes with ```git add .```
 
-Add a reference(remote) to the original repository to get all the changes from the remote.
-git remote add upstream https://github.com/wtm-buea/WTM-official-website.git
+7. Commit your changes with ```git commit -m "Relevant message"```
 
-Check the remote for this repository.
-git remote -v
+8. Push the committed changes to your remote repo: ```git push -u origin <your_branch_name>```
 
-Always take a pull from the upstream repository to your master branch to keep it at par with the main project (updated repository).
-git pull upstream main
-
-Perform your changes to the code base.
-
-Track your changes.
-
-git add .
-
-Commit your changes.
-git commit -m "Relevant message"
-
-Push the committed changes to your remote repo.
-git push -u origin <your_branch_name>
-
-To create a pull request, click on Compare and pull requests.
-
-Add appropriate title and description to your pull request explaining your changes and efforts.
-
-Click on Create Pull Request.
-
-tada WOAHHHH!!!! tada you made a pull request, Wait for it to get approved and merged hugshugs
+## Creating a pull request
+1. On github, click on "Compare and pull requests"
+2. Add an appropriate title and description to your pull request explaining your changes and efforts
+3. Click on Create Pull Request
+<br/>
+<em>tada WOAHHHH!!!! you made a pull request, Wait for it to get approved and merged hugshugs</em>
 
 # How to start contributing to the WTM Website
 
