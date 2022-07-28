@@ -3,6 +3,8 @@ import img1 from "../../../Assets/icons/Vector.png";
 import img2 from "../../../Assets/icons/ic_round-engineering.png";
 import img3 from "../../../Assets/icons/healthicons_i-training-class.png";
 
+import "./Component3.css";
+
 function Comp3Section2() {
   const dataSet = [
     {
@@ -27,18 +29,20 @@ function Comp3Section2() {
         <p
           // className="font-weight-bold"
           style={{
-            fontSize: "35px",
-            fontWeight: "370",
+            fontSize: "66px",
+            fontWeight: "400",
           }}
         >
           What we offer
         </p>
         <div
+          className="smallDiv"
           style={{
-            width: "50px",
-            height: "3px",
+            width: "83px",
+            height: "7px",
             backgroundColor: "#1CE9B6",
-            borderRadius: "5px",
+            borderRadius: "12px",
+            transform: "matrix(1, 0, 0, -1, 0, 0)",
           }}
         ></div>
       </div>
