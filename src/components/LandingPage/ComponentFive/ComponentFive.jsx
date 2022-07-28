@@ -3,7 +3,6 @@ import "./Componentfive.css";
 import icon1 from "../../../Assets/icons/clarity_happy-face-line.png";
 import icon2 from "../../../Assets/icons/Vector (1).png";
 import icon3 from "../../../Assets/icons/gis_globe-users.png";
-import vector from "../../../Assets/illustrations/Vector.png";
 
 function ComponentFive() {
   const dataSet = [
@@ -91,7 +90,7 @@ function ComponentFive() {
                       boxShadow: "1px 2px 5px rgba(0,0,0,1.25)",
                     }}
                   >
-                    <img src={data.icon} className="img" />
+                    <img src={data.icon} className="img" alt="icon" />
                     <p className="font-weight-bold num">{data.num}</p>
                     <p className="font-weight-bold title">{data.title}</p>
                   </div>

@@ -66,7 +66,7 @@ export default function Comp4() {
           {dataList.map((data) => {
             return (
               <div className="d-flex mt-3" key={data.id}>
-                <img src={Hand} width="30px" height="30px" />
+                <img src={Hand} width="30px" height="30px" alt="icon" />
                 <p
                   className="pl-3"
                   style={{
@@ -92,6 +92,7 @@ export default function Comp4() {
         >
           <img
             // className="mr-3"
+            alt=""
             src={img1}
             width="100%"
             height="100%"
@@ -108,6 +109,7 @@ export default function Comp4() {
           }}
         >
           <img
+            alt=""
             src={img2}
             width="100%"
             height="100%"

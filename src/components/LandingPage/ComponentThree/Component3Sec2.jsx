@@ -59,7 +59,7 @@ function Comp3Section2() {
 const Data = (({ img, title, body }) => {
   return (
     <div className="col-md-4 col-12">
-      <img src={img} width="30px" height="50px" />
+      <img src={img} width="30px" height="50px" alt="icon" />
       <h3
         className=""
         // className="font-weight-bold"

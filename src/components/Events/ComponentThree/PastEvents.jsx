@@ -1,7 +1,6 @@
 import React from 'react'
 import img3 from "../../../Assets/images/PN5A9405.JPG";
 import './PastEvents.css';
-import UpcomingEvents from "./UpcomingEvents";
 import { Link } from 'react-router-dom';
 
 function PastEvents() {
@@ -18,7 +17,7 @@ function PastEvents() {
                         <img className=" img-fluid" src={img3} alt="Girls sitted" />
                     </div>
                     <div className="col-md word">
-                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <a className="tex">Buea, CM</a></h5>
+                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <span className="texts" href='#'>Buea, CM</span></h5>
                         <h4 className="display-4 font-weight-normal">International Women Day</h4>
                         <p className="text-lg-left words">Ateliers ou les femmes ayant reussi dans le monde de
                             technologie viennet partager avec nous leurs experiences et</p>
@@ -29,7 +28,7 @@ function PastEvents() {
                         <img className=" img-fluid" src={img3} alt="Girls sitted" />
                     </div>
                     <div className="col-md word">
-                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <a className="tex">Buea, CM</a></h5>
+                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <span className="texts">Buea, CM</span></h5>
                         <h4 className="display-4 font-weight-normal">International Women Day</h4>
                         <p className="text-lg-left words">Ateliers ou les femmes ayant reussi dans le monde de
                             technologie viennet partager avec nous leurs experiences et</p>
