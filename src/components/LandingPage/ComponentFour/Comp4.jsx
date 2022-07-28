@@ -3,22 +3,33 @@ import Hand from "../../../Assets/icons/fa-regular_hand-point-right.png";
 import img1 from "../../../Assets/images/03 copy.jpg";
 import img2 from "../../../Assets/images/PN5A9405.JPG";
 export default function Comp4() {
-  const data = [
+
+  const dataList = [
     {
+      id: 1,
       item: "Won the women online safety hackerthon for central africa",
     },
+
     {
+      id: 2,
       item: "Mentored 100+ girls in Cameroon and central africa.",
     },
+
     {
+      id: 3,
       item: "Organised several training sessions to help women in tech",
     },
+
     {
+      id: 4,
       item: "Organised several training sessions to help women in tech",
     },
+
     {
+      id: 5,
       item: "Organised several training sessions to help women in tech",
     },
+
   ];
   return (
     <div className="row mt-5  bg-warning">
@@ -52,9 +63,9 @@ export default function Comp4() {
           </p>
         </div>
         <div className="mt-4">
-          {data.map((indData) => {
+          {dataList.map((data) => {
             return (
-              <div className="d-flex mt-3">
+              <div className="d-flex mt-3" key={data.id}>
                 <img src={Hand} width="30px" height="30px" />
                 <p
                   className="pl-3"
@@ -62,7 +73,7 @@ export default function Comp4() {
                     fontWeight: "300",
                   }}
                 >
-                  {indData.item}{" "}
+                  {data.item}{" "}
                 </p>
               </div>
             );

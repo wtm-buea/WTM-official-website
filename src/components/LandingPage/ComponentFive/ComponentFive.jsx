@@ -8,20 +8,26 @@ import vector from "../../../Assets/illustrations/Vector.png";
 function ComponentFive() {
   const dataSet = [
     {
+      id: 1,
       icon: icon1,
       num: 120,
       title: "Events Organised",
     },
+
     {
+      id: 2,
       icon: icon2,
       num: 25,
       title: "Awards recieved",
     },
+
     {
+      id: 3,
       icon: icon3,
       num: "600+",
       title: "impacted members",
     },
+
   ];
   return (
     <div className="mainBox">
@@ -78,6 +84,7 @@ function ComponentFive() {
               {dataSet.map((data) => {
                 return (
                   <div
+                    key={data.id}
                     className="bg-white ml-4 mb-3 pb-5 col-sm-3 col-7 d-flex flex-column align-items-lg-center   col-md-3 mr-3 pt-5"
                     style={{
                       borderRadius: 10,
