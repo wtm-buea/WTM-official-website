@@ -32,12 +32,12 @@ export default function Comp4() {
 
   ];
   return (
-    <div className="row mt-5  bg-warning">
-      <div className="col-md-6 col-12">
+    <div className="row mt-5 m-3 ">
+      <div className="col-md-6 col-12 p-3">
         <div>
           <p
             style={{
-              fontSize: "25px",
+              fontSize: "45px",
               fontWeight: "410",
             }}
           >
@@ -45,10 +45,11 @@ export default function Comp4() {
           </p>
           <div
             style={{
-              width: "50px",
-              height: "3px",
+              width: "15rem",
+              height: ".8rem",
               backgroundColor: "#1CE9B6",
-              borderRadius: "5px",
+              borderRadius: "12px",
+              margin: "-3rem 3rem 5rem",
             }}
           ></div>
         </div>
@@ -65,12 +66,13 @@ export default function Comp4() {
         <div className="mt-4">
           {dataList.map((data) => {
             return (
-              <div className="d-flex mt-3" key={data.id}>
-                <img src={Hand} width="30px" height="30px" alt="icon" />
+              <div className="d-flex mt-3">
+                <img src={Hand} width="50px" height="50px" />
                 <p
-                  className="pl-3"
+                  className="pl-3 pt-5"
                   style={{
-                    fontWeight: "300",
+                    fontWeight: "400",
+                    fontSize: "21px",
                   }}
                 >
                   {data.item}{" "}
