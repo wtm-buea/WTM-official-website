@@ -3,25 +3,30 @@ import "./Componentfive.css";
 import icon1 from "../../../Assets/icons/clarity_happy-face-line.png";
 import icon2 from "../../../Assets/icons/Vector (1).png";
 import icon3 from "../../../Assets/icons/gis_globe-users.png";
-import vector from "../../../Assets/illustrations/Vector.png";
 
 function ComponentFive() {
   const dataSet = [
     {
+      id: 1,
       icon: icon1,
       num: 120,
       title: "Events Organised",
     },
+
     {
+      id: 2,
       icon: icon2,
       num: 25,
       title: "Awards recieved",
     },
+
     {
+      id: 3,
       icon: icon3,
       num: "600+",
       title: "impacted members",
     },
+
   ];
   return (
     <div className="mainBox">
@@ -78,13 +83,14 @@ function ComponentFive() {
               {dataSet.map((data) => {
                 return (
                   <div
+                    key={data.id}
                     className="bg-white ml-4 mb-3 pb-5 col-sm-3 col-7 d-flex flex-column align-items-lg-center   col-md-3 mr-3 pt-5"
                     style={{
                       borderRadius: 10,
                       boxShadow: "1px 2px 5px rgba(0,0,0,1.25)",
                     }}
                   >
-                    <img src={data.icon} className="img" />
+                    <img src={data.icon} className="img" alt="icon" />
                     <p className="font-weight-bold num">{data.num}</p>
                     <p className="font-weight-bold title">{data.title}</p>
                   </div>

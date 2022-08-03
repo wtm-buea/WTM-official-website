@@ -18,6 +18,7 @@ function Hero() {
               </div>
               <div className={styles.bottomText}>Buea</div>
             </div>
+
           </div>
         </div>
       </div>
