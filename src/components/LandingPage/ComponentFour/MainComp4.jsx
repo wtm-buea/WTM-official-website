@@ -3,14 +3,15 @@ import Comp4 from "./Comp4";
 function MainComp4() {
   return (
     <div
-      className="container"
+      className="container-fluid"
       style={{
-        width: "100%",
+        background: "#EFEFEF",
+        paddingLeft: "100px",
+        height: "150vh",
+        minheight: "150vh"
       }}
     >
-      <div>
-        <Comp4 />
-      </div>
+      <Comp4 />
     </div>
   );
 }

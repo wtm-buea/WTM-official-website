@@ -28,8 +28,8 @@ function Comp3Section2() {
   return (
     <div style={{ marginTop: "60px", marginBottom: "-60px" }}>
       <div className="d-flex flex-column  align-items-md-center">
-        <h2 className="heading-secondary">What we offer</h2>
-        <div className="underline"></div>
+        <h2 className="heading-secondary-1">What we offer</h2>
+        <span className="underline-normal"></span>
       </div>
       <div className="row mt-5">
         {dataSet.map((data) => {
