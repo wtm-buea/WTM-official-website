@@ -9,63 +9,45 @@ function Comp3Section2() {
       id: 1,
       img: img1,
       title: "Tech Advice",
-      body: "Once a member of the community,ladies get free councel on tech fields",
+      body: "Once a member of the community,ladies get free counsel on tech fields",
     },
     {
       id: 2,
       img: img2,
       title: "Training Sessions",
-      body: "Once a member of the community,ladies get free councel on tech fields",
+      body: "Once a member of the community,ladies get free training in tech related areas",
     },
     {
       id: 3,
       img: img3,
       title: "Mentorship Programs",
-      body: "We provide quality training for community members by senior enginerrs",
+      body: "We provide quality training for community members by senior engineers",
     },
   ];
+
   return (
-    <div>
+    <div style={{ marginTop: "60px", marginBottom: "-60px" }}>
       <div className="d-flex flex-column  align-items-md-center">
-        <p
-          // className="font-weight-bold"
-          style={{
-            fontSize: "35px",
-            fontWeight: "370",
-          }}
-        >
-          What we offer
-        </p>
-        <div
-          style={{
-            width: "50px",
-            height: "3px",
-            backgroundColor: "#1CE9B6",
-            borderRadius: "5px",
-          }}
-        ></div>
+        <h2 className="heading-secondary">What we offer</h2>
+        <div className="underline"></div>
       </div>
       <div className="row mt-5">
         {dataSet.map((data) => {
-          return (
-            <Data key={data.id} {...data} />
-          );
+          return <Data key={data.id} {...data} />;
         })}
       </div>
     </div>
   );
 }
 
-const Data = (({ img, title, body }) => {
+const Data = ({ img, title, body }) => {
   return (
-    <div className="col-md-4 col-12">
+    <div className="col-sm-12 col-md-4">
       <img src={img} width="30px" height="50px" alt="icon" />
       <h3
-        className=""
-        // className="font-weight-bold"
         style={{
           fontSize: "25px",
-          fontWeight: "450",
+          fontWeight: "600",
         }}
       >
         {title}
@@ -73,6 +55,6 @@ const Data = (({ img, title, body }) => {
       <p>{body}</p>
     </div>
   );
-});
+};
 
 export default Comp3Section2;

@@ -2,7 +2,7 @@ import React from "react";
 
 function Comp3Section1() {
   return (
-    <div className="mb-5">
+    <div className="mb-5 mt-5">
       <div className="d-flex flex-column align-items-md-center">
         <h2 className="heading-secondary">About Us</h2>
         <div className="underline"></div>
