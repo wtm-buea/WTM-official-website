@@ -3,6 +3,8 @@ import img1 from "../../../Assets/icons/Vector.png";
 import img2 from "../../../Assets/icons/ic_round-engineering.png";
 import img3 from "../../../Assets/icons/healthicons_i-training-class.png";
 
+import "./Component3.css";
+
 function Comp3Section2() {
   const dataSet = [
     {
