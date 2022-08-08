@@ -7,8 +7,8 @@ function MainComp4() {
       style={{
         background: "#EFEFEF",
         paddingLeft: "100px",
-        height: "150vh",
-        minheight: "150vh"
+        height: "100vh",
+        minheight: "100vh"
       }}
     >
       <Comp4 />

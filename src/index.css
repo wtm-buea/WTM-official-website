@@ -37,8 +37,17 @@ code {
 
 .underline-bold {
   display: block;
-  width: 50px;
+  width: 70px;
   height: 7px;
+  background-color: #1CE9B6;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.underline-large {
+  display: block;
+  width: 120px;
+  height: 4px;
   background-color: #1CE9B6;
   border-radius: 5px;
   margin-top: 10px;
