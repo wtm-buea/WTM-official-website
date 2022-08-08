@@ -1,0 +1,101 @@
+.wrapper {
+  background-color: #1b2a4e;
+  min-height: 90vh;
+  width: 100vw;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.gradient-bar {
+  height: 45px;
+  z-index: 999;
+  background: linear-gradient(91.05deg, #1ce9b6 -21.27%, #4cadf6 117.52%);
+}
+
+.quote {
+  display: block;
+  color: white;
+}
+
+.quote-author {
+  color: #1ce9b6;
+  font-size: 1.5rem;
+}
+
+.buea {
+  color: #7f8185;
+  font-size: 40px;
+}
+
+.quick-links {
+  color: white;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 70px 20px 50px 20px;
+  color: white;
+  text-align: justify;
+}
+
+.list h2 {
+  text-align: left;
+}
+
+.list li {
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.list-icon img {
+  /* padding-left: -50rem; */
+}
+
+.list-icon span {
+  margin-left: 20px;
+}
+
+.quote-box {
+  background-color: #495573;
+  box-shadow: 22px 22px 120px rgba(0, 102, 255, 0.25);
+}
+
+.social-container {
+  display: flex;
+}
+
+.social-container img {
+  margin: 15px 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.dashed-sm {
+  width: 50%;
+}
+
+.dashed-md, .dashed-sm {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.dashed-md > span, .dashed-sm > span {
+  background-color:#c4c4c4;
+}
+
+.dashed-md > span {
+  width: 50px;
+   height: 5px;
+}
+
+.dashed-sm > span {
+  width: 30px;
+   height: 8px;
+}
+
+

@@ -1,5 +1,7 @@
 import React from "react";
-//import Example from "./Example/Example";
+// import "aos/dist/aos.css";
+import FooterComponent from './components/LandingPage/FooterComponent/FooterComponent'
+
 import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
 import Vision from "./components/LandingPage/ComponentSix/vision/vision";
 import Comp4 from "./components/LandingPage/ComponentFour/MainComp4";
@@ -20,10 +22,11 @@ function App() {
       <Comp4 />
       <ComponentFive />
       <Vision />
-      <Router>
+      {/* <Router>
         <Route exact path="/PastEvents" component={PastEvents} />
         <Route exact pat h="/UpcomingEvents" component={UpcomingEvents} />
-      </Router>
+      </Router> */}
+      <FooterComponent />
     </div>
   );
 }
