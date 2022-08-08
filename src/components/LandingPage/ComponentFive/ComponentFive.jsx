@@ -26,58 +26,48 @@ function ComponentFive() {
       num: "600+",
       title: "impacted members",
     },
-
   ];
   return (
     <div className="mainBox">
       <div
         style={{
           width: "100vw",
-          height: "95vh",
         }}
       >
-        <div className="main">
+        <div class="custom-shape-divider-top-1659920465">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+        <div className="main" style={{ paddingTop: 200, paddingBottom: 30 }}>
+
           <div
-            className="container text-white "
             style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              flex: 1,
-              height: "100%",
+              margin: "0 auto",
+              width: "80vw",
             }}
           >
             <div>
               <p className="heading text-white font-weight-bold">
                 Why you should join our Community
               </p>
-              <div
-                style={{
-                  width: "75px",
-                  height: "3px",
-                  borderRadius: 25,
-                  backgroundColor: "#1CE9B6",
-                }}
-              ></div>
+              <span
+                className="underline-large"
+                style={{ marginTop: "-38px" }}
+              ></span>
             </div>
-            <div>
-              <p className="mt-5  lorem">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur ea, eius deleniti repudiandae corporis voluptates
-                dignissimos nesciunt sed animi fuga molestiae repellat maxime
-                nihil. Est commodi assumenda veniam itaque provident?
-              </p>
-            </div>
+            <p className="mt-5 pr-5" style={{ fontWeight: 500, fontSize: "25px", color: "#fff", textAlign: "justify", width: "60vw" }}>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+
             <div>
               <p className="heading text-white font-weight-bold">Analytics</p>
-              <div
-                style={{
-                  width: "75px",
-                  height: "5px",
-                  borderRadius: 25,
-                  backgroundColor: "#1CE9B6",
-                }}
-              ></div>
+              <span
+                className="underline-bold"
+                style={{ marginTop: "-38px" }}
+              ></span>
             </div>
             <div className="row mt-5">
               {dataSet.map((data) => {

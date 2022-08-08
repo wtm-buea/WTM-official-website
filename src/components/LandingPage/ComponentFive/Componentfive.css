@@ -1,3 +1,26 @@
+.mainBox {
+  position: relative;
+}
+.custom-shape-divider-top-1659920465 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1659920465 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 212px;
+}
+
+.custom-shape-divider-top-1659920465 .shape-fill {
+    fill: #EFEFEF;
+}
+
 .main {
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -12,17 +35,12 @@
   background-size: cover;
   /* filter: brightness(0.6); */
 }
-.lorem {
-  font-size: 18px;
-}
-.mainBox {
-  /* background-color: red; */
-}
 
 .num {
   color: #1b3c34;
   font-size: 32px;
 }
+
 .img {
   width: 45px;
 }

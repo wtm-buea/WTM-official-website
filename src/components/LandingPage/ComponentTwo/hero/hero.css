@@ -18,13 +18,13 @@
  .text{
     color: white;
  }
-.container{
-    padding-top: 380px;
-    
-    
+
+.section-box{
+    padding-top: 380px;  
 }
+
 @media only screen and (max-width: 1000px){
-    .container{
+    .section-box {
         padding-top: 300px;
     }
     .jumbotron h1{
@@ -45,8 +45,9 @@
     vertical-align: -.200em;
     border-radius: 0;
 }
+
 @media only screen and (max-width: 760px){
-    .container{
+    .section-box {
         padding-top: 250px;
     }
     .jumbotron h1{
@@ -60,18 +61,21 @@
 }
 
 @media only screen and (max-width: 480px){
-    .container{
+    .section-box {
         padding-top: 180px;
     
     }
+
     .jumbotron h1{
         line-height:1.2;
         font-size: 20px;
     }
+
     .jumbotron h4{
         line-height: 0.5em;
         font-size: 20px;
     }
+    
     .jumbotron{
         height:auto;
         width: auto;
