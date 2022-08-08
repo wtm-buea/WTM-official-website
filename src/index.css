@@ -29,7 +29,7 @@ code {
 .underline-normal {
   display: block;
   width: 50px;
-  height: 3px;
+  height: 5px;
   background-color: #1CE9B6;
   border-radius: 5px;
   margin-top: 80px;
@@ -38,7 +38,7 @@ code {
 .underline-bold {
   display: block;
   width: 70px;
-  height: 7px;
+  height: 9px;
   background-color: #1CE9B6;
   border-radius: 5px;
   margin-top: 10px;
@@ -47,7 +47,7 @@ code {
 .underline-large {
   display: block;
   width: 120px;
-  height: 4px;
+  height: 6px;
   background-color: #1CE9B6;
   border-radius: 5px;
   margin-top: 10px;
