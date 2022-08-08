@@ -2,49 +2,15 @@ import React from "react";
 
 function Comp3Section1() {
   return (
-    <div className=" mb-5 p-5 container-fluid">
-      <div className="d-flex flex-column  align-items-center gap-1">
-        <p
-          className=" text"
-          style={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontWeight: 400,
-            fontSize: "66px",
-            // lineHeight: "77px",
-            color: "#5C5A5A",
-          }}
-        >
-          About Us
-        </p>
-        <div
-          style={{
-            position: "absolute",
-            width: "83px",
-            height: "7px",
-            top: "123%",
-            background: "#1CE9B6",
-            borderRadius: "12px",
-            transform: "matrix(1, 0, 0, -1, 0, 0)",
-          }}
-        ></div>
+    <div className="mb-5 mt-5">
+      <div className="d-flex flex-column align-items-md-center">
+        <h2 className="heading-secondary-1">About Us</h2>
+        <span className="underline-normal"></span>
       </div>
-      <div className="mt-5 text-center">
-        <p
-          className="text text-break"
-          style={{
-            fontFamily: "Roboto",
-            fontStyle: "normal",
-            fontSize: "45px",
-            fontWeight: "400",
-            width: "105%",
-            color: "#121212",
-          }}
-        >
-          Google’s Women Techmakers program provides visibility,
-          <br /> community, and resources for women in technology
-        </p>
-      </div>
+      <h3 className="mt-5 text-md-center heading-h3 d-block">
+        Google’s Women Techmakers program provides visibility, community, and
+        resources for women in technology
+      </h3>
     </div>
   );
 }

@@ -15,7 +15,7 @@ const Navbar = (param) => {
     <>
       <section className={styles.navWrapper}>
         <section className={styles.hamburger} onClick={param.onClose}>
-          <i class="fa-solid fa-arrow-left-long"></i>
+          <i className="fa-solid fa-arrow-left-long"></i>
         </section>
         <section className={styles.allComponents}>
           <div className={styles.tex}>
@@ -26,6 +26,9 @@ const Navbar = (param) => {
           </div>
           <div className={styles.text}>
             <h2>Events</h2>
+          </div>
+          <div className={styles.text}>
+            <h2>Our Blog</h2>
           </div>
           <div className={styles.text}>
             <h2>Success Stories</h2>

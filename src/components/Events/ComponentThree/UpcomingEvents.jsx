@@ -1,26 +1,26 @@
 import React from 'react'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import img3 from "../../../Assets/images/PN5A9405.JPG";
 import './UpcomingEvents.css';
 
 function UpcomingEvents() {
     return (
-        <div class="Event" >
-            
+        <div className="Event" >
+
             <div className="container bg-light">
-            <div className="events"><p className="texts"><Link to='/PastEvents'>Past events</Link>&nbsp; 
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<Link to='/UpcomingEvents'>Upcoming Events</Link></p>
-            <div className="rectangle1"></div>
-            </div>
+                <div className="events"><p className="texts"><Link to='/PastEvents'>Past events</Link>&nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<Link to='/UpcomingEvents'>Upcoming Events</Link></p>
+                    <div className="rectangle1"></div>
+                </div>
                 <h1 className="display-1 font-weight-normal">Upcoming events</h1>
                 <div className="row">
                     <div className="col-md">
                         <img className=" img-fluid" src={img3} alt="Girls sitted" />
                     </div>
                     <div className="col-md word">
-                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <a className="tex">Buea, CM</a></h5>
+                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <span className="texts">Buea, CM</span></h5>
                         <h4 className="display-4 font-weight-normal">International Women Day</h4>
-                        <p className="text-lg-left words">Ateliers ou les femmes ayant reussi dans le monde de 
+                        <p className="text-lg-left words">Ateliers ou les femmes ayant reussi dans le monde de
                             technologie viennet partager avec nous leurs experiences et</p>
                     </div>
                 </div>
@@ -29,9 +29,9 @@ function UpcomingEvents() {
                         <img className=" img-fluid" src={img3} alt="Girls sitted" />
                     </div>
                     <div className="col-md word">
-                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <a className="tex">Buea, CM</a></h5>
+                        <h5 className="font-weight-bold">March 28, 2021 - IWD-WORKSHOP - <span className="texts">Buea, CM</span></h5>
                         <h4 className="display-4 font-weight-normal">International Women Day</h4>
-                        <p className="text-lg-left words">Ateliers ou les femmes ayant reussi dans le monde de 
+                        <p className="text-lg-left words">Ateliers ou les femmes ayant reussi dans le monde de
                             technologie viennet partager avec nous leurs experiences et</p>
                     </div>
                 </div>

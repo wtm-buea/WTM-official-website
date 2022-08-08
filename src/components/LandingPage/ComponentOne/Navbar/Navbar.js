@@ -48,6 +48,10 @@ const Navbar = () => {
             <div className={styles.d}></div>
           </section>
           <section className={styles.navRightChild}>
+            <h2 className={styles.inner}>Our Blog</h2>
+            <div className={styles.d}></div>
+          </section>
+          <section className={styles.navRightChild}>
             <h2 className={styles.inner}>Success Stories</h2>
             <div className={styles.d}></div>
           </section>
