@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import NavModal from "../Modal/NavModal.jsx";
 
 // STYLE HERE
@@ -8,6 +9,7 @@ import styles from "./Navbar.module.css";
 import logo from "./image-removebg-preview.png";
 
 const Navbar = () => {
+  const routes = ['/', '/events', '/blog', 'success-stories'];
   const [show, setShow] = useState(false);
   const [display, setDisplay] = useState("");
 
@@ -40,19 +42,19 @@ const Navbar = () => {
         </section>
         <section className={styles.navRight}>
           <section className={styles.navRightChild}>
-            <h2 className={styles.inner}>Home</h2>
+            <Link to="/"><h2 className={styles.inner}>Home</h2></Link>
             <div className={styles.d}></div>
           </section>
           <section className={styles.navRightChild}>
-            <h2 className={styles.inner}>Events</h2>
+            <Link to={routes[1]}><h2 className={styles.inner}>Events</h2></Link>
             <div className={styles.d}></div>
           </section>
           <section className={styles.navRightChild}>
-            <h2 className={styles.inner}>Our Blog</h2>
+            <Link to={routes[2]}><h2 className={styles.inner}>Our Blog</h2></Link>
             <div className={styles.d}></div>
           </section>
           <section className={styles.navRightChild}>
-            <h2 className={styles.inner}>Success Stories</h2>
+            <Link to={routes[3]}><h2 className={styles.inner}>Success Stories</h2></Link>
             <div className={styles.d}></div>
           </section>
         </section>

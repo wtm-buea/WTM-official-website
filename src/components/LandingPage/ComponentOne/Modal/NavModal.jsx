@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // STYLE HERE
 import styles from "./NavModal.module.css";
@@ -22,7 +23,7 @@ const Navbar = (param) => {
             <img src={logo} className={`${styles.logo}`} />
           </div>
           <div className={styles.text}>
-            <h2>Home</h2>
+            <Link><h2>Home</h2></Link>
           </div>
           <div className={styles.text}>
             <h2>Events</h2>
