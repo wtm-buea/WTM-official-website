@@ -1,20 +1,34 @@
 import React from "react";
-import Example from "./Example/Example";
-
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import FooterComponent from './components/LandingPage/FooterComponent/FooterComponent'
 
+import Hero from "./components/LandingPage/ComponentTwo/hero/hero";
+import Vision from "./components/LandingPage/ComponentSix/vision/vision";
+import Comp4 from "./components/LandingPage/ComponentFour/MainComp4";
+import Comp3 from "./components/LandingPage/ComponentThree/Main";
+import Comp1 from "./components/LandingPage/ComponentOne/Navbar/Navbar";
+import ComponentFive from "./components/LandingPage/ComponentFive/ComponentFive";
+import PastEvents from "./components/Events/ComponentThree/PastEvents";
+import UpcomingEvents from "./components/Events/ComponentThree/UpcomingEvents";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 function App() {
-  // AOS.init();
-  // return (
-  //   <div data-aos="fade-right" data-aos-delay="500">
-  //     hey
-  //   </div>
-  // );
-
-  return <FooterComponent />
-
+  return (
+    <div>
+      {/* <SuccessStoies /> */}
+      <Comp1 />
+      <Hero />
+      <Comp3 />
+      <Comp4 />
+      <ComponentFive />
+      <Vision />
+      {/* <Router>
+        <Route exact path="/PastEvents" component={PastEvents} />
+        <Route exact pat h="/UpcomingEvents" component={UpcomingEvents} />
+      </Router> */}
+      <FooterComponent />
+    </div>
+  );
 }
 
 export default App;

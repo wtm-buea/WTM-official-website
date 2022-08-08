@@ -1,7 +1,9 @@
 .wrapper {
   background-color: #1b2a4e;
-  min-height: 580px;
-  
+  min-height: 90vh;
+  width: 100vw;
+  padding-top: 30px;
+  font-size: 30px;
 }
 
 .gradient-bar {
@@ -10,14 +12,9 @@
   background: linear-gradient(91.05deg, #1ce9b6 -21.27%, #4cadf6 117.52%);
 }
 
-div {
-  /* border: 1px solid black; */
-}
-
 .quote {
   display: block;
   color: white;
-  font-size: 1;
 }
 
 .quote-author {
@@ -27,49 +24,39 @@ div {
 
 .buea {
   color: #7f8185;
+  font-size: 40px;
 }
 
 .quick-links {
   color: white;
-
+  font-weight: 500;
+  font-size: 38px;
 }
 
-.links {
+.list {
   list-style-type: none;
-  padding: 20px;
+  padding: 70px 20px 50px 20px;
+  color: white;
+  text-align: justify;
 }
 
-.links li {
+.list h2 {
+  text-align: left;
+}
+
+.list li {
   margin: 30px 0;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: justify;
 }
 
-.dashed-border {
-  border-bottom: 5px dashed #c4c4c4;
-  padding: 20px 0;
+.list-icon img {
+  /* padding-left: -50rem; */
 }
 
-.contact-info {
-  margin: 20px 0px;
-  
-}
-
-.contact-info > div {
-  padding: 10px 0;
-  display: flex;
-  
-}
-
-.contact-info > div img{
-  height: 25px;
-  width: 25px;
-}
-.contact-info > div span{
-  margin-left: 10px;
-}
-
-.social {
-  max-height: 48px;
-  max-width: 48px;
+.list-icon span {
+  margin-left: 20px;
 }
 
 .quote-box {
@@ -78,28 +65,37 @@ div {
 }
 
 .social-container {
-  /* margin: 0 auto; */
   display: flex;
-
 }
 
 .social-container img {
   margin: 15px 20px;
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
 }
 
-.dashed {
+.dashed-sm {
+  width: 50%;
+}
+
+.dashed-md, .dashed-sm {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
 }
-.dashed > div {
-  height: 5px;
-  width: 50px;
-  background-color:#c4c4c4;
-  
 
+.dashed-md > span, .dashed-sm > span {
+  background-color:#c4c4c4;
+}
+
+.dashed-md > span {
+  width: 50px;
+   height: 5px;
+}
+
+.dashed-sm > span {
+  width: 30px;
+   height: 8px;
 }
 
 
