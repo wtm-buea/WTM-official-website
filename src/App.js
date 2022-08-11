@@ -6,14 +6,16 @@ import Events from "./components/Events/Events";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route path="/" component={LandingPage} exact />
-          <Route path="/events" component={Events} />
-        </Switch>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/" component={LandingPage} exact />
+            <Route path="/events" component={Events} />
+          </Switch>
+        </div>
+      </Router>
+    </>
   );
 }
 

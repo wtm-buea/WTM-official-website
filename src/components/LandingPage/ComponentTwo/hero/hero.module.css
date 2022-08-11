@@ -1,7 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
 
 .jumbotron {
-    background: rgba(0, 0, 0, 0.5) url("../../../../Assets/images/divfest.JPG");
+    background-image: 
+    linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),  
+    url("../../../../Assets/images/divfest.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,7 +26,6 @@
     position: absolute;
     left: 40%;
     gap: 3rem;
-    /* background-color: yellowgreen; */
     display: flex;
     justify-content: space-between;
 }
