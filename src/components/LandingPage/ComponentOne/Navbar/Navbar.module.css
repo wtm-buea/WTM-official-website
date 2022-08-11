@@ -1,74 +1,101 @@
+.navWrapper {
+  background-color: transparent;
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+}
+
 .logoSection {
-    width: 20%;
-    height: 100%;
+  width: 35%;
+  margin-top: -20px;
 }
 
 .logo {
-    width: 100%;
-}
-
-.navWrapper {
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    position: fixed;
-    top: 0;
-    justify-content: space-between;
-    height: 10vh;
-    width: 100vw;
-    z-index: 1000;
+  width: 100%;
 }
 
 .navRight {
-    width: 50%;
-    justify-content: space-around;
-    display: flex;
-    padding: 3rem;
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+  padding: 3rem;
+  margin-top: 7px;
 }
 
-.navRightChild {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 41px;
-    height: 5rem;
+.navRightChild .link {
+  color: #d1c3c3;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-.inner {
-    height: 150%;
-    color: #D1C3C3;
+.navRightChild .link:hover {
+  color: #fff;
+  border: 0;
 }
 
-.inner:hover {
-    color: #fff;
+.navRightChild .link:focus {
+  border-bottom: 0.5rem solid #1ce9b6;
 }
 
-.inner:hover~.d {
-    color: #fff;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 12px;
-    border-bottom: .5rem solid aqua;
+.hamburgerIcon {
+  display: none;
 }
 
-.hamburger {
+@media only screen and (max-width: 768px) {
+  .navRight {
     display: none;
-}
+  }
 
-@media only screen and (max-width: 1000px) {
-    .navWrapper {
-        display: none;
-    }
+  .hamburgerIcon {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    color: black;
+    font-size: 20px;
+    padding: 0.7rem 0rem 0rem 1rem;
+    margin: 1rem 12rem 1rem 1rem;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
-    .hamburger {
-        display: block;
-        width: 4rem;
-        height: 5rem;
-        position: fixed;
-        top: 0;
-        left: 0;
-        color: #000;
-        font-size: 32px;
-        padding: .5rem;
-        background: #fff;
-    }
+  .dropdownContainer {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15rem;
+    z-index: 2;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: .5rem;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 8px 12px;
+  }
+
+  li:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+  }
+
+  .logoSection {
+    margin-top: 5px;
+  }
 }

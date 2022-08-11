@@ -1,5 +1,3 @@
-import react from "react";
-
 import "./FooterComponent.css";
 import women_techmakers from "../../../Assets/images/women_techmakers.png";
 import emailIcon from "../../../Assets/icons/email-icon.svg";
@@ -14,7 +12,7 @@ import slackIcon from "../../../Assets/icons/slack-icon.svg";
 export default function FooterComponent() {
     return (
         <div className="container-fluid wrapper">
-            <div class="row">
+            <div className="row">
                 <div className="col-md-5 p-5">
                     <div className="text-center quote-box">
                         <div className="gradient-bar"></div>
@@ -94,28 +92,28 @@ export default function FooterComponent() {
                         </li>
                         <li>
                             <div className="social-container">
-                                <a href="#">
+                                <a href="/">
                                     <img
                                         className="img img-responsive"
                                         src={fbIcon}
                                         alt="facebook"
                                     />
                                 </a>
-                                <a href="#">
+                                <a href="/">
                                     <img
                                         className="img img-responsive"
                                         src={twitterIcon}
                                         alt="twitter"
                                     />
                                 </a>
-                                <a href="#">
+                                <a href="/">
                                     <img
                                         className="img img-responsive"
                                         src={whatsappIcon}
                                         alt="whatsapp"
                                     />
                                 </a>
-                                <a href="#">
+                                <a href="/">
                                     <img
                                         className="img img-responsive"
                                         src={slackIcon}
