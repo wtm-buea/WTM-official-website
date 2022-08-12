@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img3 from "../../../Assets/images/PN5A9405.JPG";
+import img3 from "../../../Assets/images/Devfest_Buea_2019.JPG";
 import './UpcomingEvents.css';
 
 function UpcomingEvents() {

@@ -1,162 +1,76 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
 
-.jumbotron {
+.heroImage {
     background-image: 
     linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),  
-    url("../../../../Assets/images/divfest.JPG");
+    url("../../../../Assets/images/Devfest_Buea_2019.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 110vh;
-    width: 100vw;
-    border-radius: 0px;
-    background-blend-mode: darken;
+    height: 120vh;
+    position: relative;
 }
 
-.jumbotron h1 {
-    margin: 30px 0;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-.bottomTextDiv {
-    width: 20%;
-    height: 12rem;
-    position: absolute;
-    left: 40%;
-    gap: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bottomTextMid {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 125%;
-}
-
-.bottomText,
-.bottomTextMid {
+.heroText {
     text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 44px;
-    font-weight: 500;
+    width: 70vw;
 }
 
-.bottomText {
-    border-bottom: 1rem solid #FFFFFF;
-}
-
-.container {
-    padding-top: 380px;
-    width: 100vw;
-}
-
-
-.textDisplay4 {
+.heroText {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
+}
+
+.heroText h1 {
     font-size: 68px;
     line-height: 80px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
-@media only screen and (max-width: 1000px) {
-    .container {
-        padding-top: 300px;
-    }
+.heroText section {
+    font-size: 40px;
+    line-height: 52px;
+    width: 30%;
+    margin: 0 auto;
+}
 
-    .jumbotron h1 {
-        line-height: 1.7;
+.heroText section .top, .heroText section .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.heroText section .top .star {
+    font-size: 11rem;
+}
+
+.heroText section .bottom div {
+    height: .7rem;
+    width: 20%;
+    background-color: white;
+    margin-left: .5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .heroText section {
+        width: 40%;
         font-size: 30px;
     }
 
-    .jumbotron {
-        height: 80vh;
-        width: auto;
-    }
-
-    .bottomText,
-    .bottomTextMid {
-        font-size: 24px;
-    }
-
-    .bottomText {
-        border-bottom: .7rem solid #FFFFFF;
-    }
-
-    .bottomTextDiv {
-        height: 6rem;
-    }
+    .heroText section .top .star {
+    font-size: 10rem;
+}
 }
 
-/* .bi-star-fill {
-    font-size: 2rem;
-    color: white;
-}
-
-.bi-dash-lg {
-    font-size: 3rem;
-    vertical-align: -.200em;
-    border-radius: 0;
-} */
-
-@media only screen and (max-width: 760px) {
-    .container {
-        padding-top: 250px;
-    }
-
-    .jumbotron h1 {
-        line-height: 1.7;
+@media only screen and (max-width: 768px) {
+    .heroText section {
+        width: 50%;
         font-size: 30px;
-    }
-
-    .jumbotron {
-        height: 70vh;
-        width: auto;
-    }
-
-    .bottomTextDiv {
-        position: absolute;
-        left: 35%;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .container {
-        padding-top: 180px;
-
-    }
-
-    .jumbotron h1 {
-        line-height: 1.2;
-        font-size: 20px;
-    }
-
-    .jumbotron h4 {
-        line-height: 0.5em;
-        font-size: 20px;
-    }
-
-    .jumbotron {
-        height: 45vh;
-        width: auto;
-    }
-
-    .bottomText {
-        border-bottom: .2rem solid #FFFFFF;
-    }
-
-    .bottomTextDiv {
-        height: 4rem;
-    }
-
-    .bottomText,
-    .bottomTextMid {
-        font-size: 14px;
     }
 }
