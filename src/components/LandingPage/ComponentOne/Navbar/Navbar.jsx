@@ -44,7 +44,7 @@ const Navbar = () => {
             </Link>
           </section>
         </section>
-        <div className={styles.dropdownContainer}>
+        <section className={styles.dropdownContainer}>
           <span
             className={`${styles.hamburgerIcon}`}
             onClick={toggleDropdown}
@@ -59,7 +59,7 @@ const Navbar = () => {
               <li><Link to={routes[3]} className={styles.link}>Success Stories</Link></li>
             </ul>
           </div>
-        </div>
+        </section>
       </section>
     </>
   );
