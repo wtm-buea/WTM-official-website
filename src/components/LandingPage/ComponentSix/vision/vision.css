@@ -1,0 +1,22 @@
+.vision-main {
+padding: 100px 50px;
+}
+
+h2{
+    line-height: 0.02px;
+    margin-bottom: -50px;
+}
+
+p{
+    margin-top: -10px;
+    color: rgb(112, 110, 108);
+    margin-bottom: 50px;
+    font-size: large;
+    font-kerning: none;
+}
+
+.btn-primary{
+    border-color: rgba(96, 169, 252, 0.959);
+    background: rgba(96, 169, 252, 0.959);
+    
+}

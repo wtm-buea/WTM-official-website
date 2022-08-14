@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
+
+.heroImage {
+    background-image: 
+    linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),  
+    url("../../../../Assets/images/Devfest_Buea_2019.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 120vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 70vw;
+}
+
+.heroText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.heroText h1 {
+    font-size: 68px;
+    line-height: 80px;
+}
+
+.heroText section {
+    font-size: 40px;
+    line-height: 52px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.heroText section .top, .heroText section .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.heroText section .top .star {
+    font-size: 11rem;
+}
+
+.heroText section .bottom div {
+    height: .7rem;
+    width: 20%;
+    background-color: white;
+    margin-left: .5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .heroText section {
+        width: 40%;
+        font-size: 30px;
+    }
+
+    .heroText section .top .star {
+    font-size: 10rem;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+    .heroText h1 {
+    font-size: 58px;
+    line-height: 70px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .heroText section {
+        width: 40%;
+        font-size: 20px;
+    }
+
+    .heroText h1 {
+         font-size: 40px;
+    }
+}
