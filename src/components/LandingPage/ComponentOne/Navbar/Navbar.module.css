@@ -3,15 +3,15 @@
   display: flex;
   position: absolute;
   top: 0;
+  padding-top: 4rem;
   z-index: 1;
   justify-content: space-between;
   height: 10vh;
-  width: 100vw;
+  max-width: 100%;
 }
 
 .logoSection {
-  width: 35%;
-  margin-top: -20px;
+  width: 25%;
 }
 
 .logo {
@@ -20,17 +20,16 @@
 
 .navRight {
   width: 50%;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
-  padding: 3rem;
-  margin-top: 7px;
 }
 
 .navRightChild .link {
   color: #d1c3c3;
+  text-decoration: none;
   font-weight: 400;
   font-size: 30px;
-  text-decoration: none;
+  margin: 3rem;
 }
 
 .navRightChild .link:hover {
@@ -38,12 +37,29 @@
   border: 0;
 }
 
-.navRightChild .link:focus {
+.navRightChild .link:focus,
+li a:focus {
   border-bottom: 0.5rem solid #1ce9b6;
 }
 
-.hamburgerIcon {
+.dropdownContainer {
   display: none;
+}
+
+
+@media only screen and (max-width: 1460px) {
+  .navWrapper {
+    max-width: 90vw;
+  }
+
+  .navRight {
+    width: 60%;
+  }
+
+   .navRightChild .link {
+    font-size: 25px;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -51,32 +67,42 @@
     display: none;
   }
 
-  .hamburgerIcon {
+  .dropdownContainer {
     display: block;
-    height: 4rem;
-    width: 4rem;
-    color: black;
-    font-size: 20px;
-    padding: 0.7rem 0rem 0rem 1rem;
-    margin: 1rem 12rem 1rem 1rem;
-    background: #fff;
-    border-radius: 50%;
-    cursor: pointer;
+  }
+
+  .logoSection {
+    width: 40%;
+    padding-left: 2rem;
   }
 
   .dropdownContainer {
     position: relative;
     display: inline-block;
+    width: 15vw;
+  }
+
+  .hamburgerIcon {
+    height: 4rem;
+    width: 4rem;
+    color: black;
+    font-size: 20px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
   }
 
   .dropdownMenu {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 15rem;
+    width: 13rem;
+    margin-top: 1rem;
     z-index: 2;
     border: 1px solid rgba(0, 0, 0, 0.04);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.5);
     background-color: #fff;
   }
@@ -91,9 +117,10 @@
     padding: 8px 12px;
   }
 
-  li:hover {
-    background-color: rgba(0, 0, 0, 0.14);
-    cursor: pointer;
+  .dropdownContainer ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
   }
 
   .logoSection {
