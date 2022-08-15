@@ -69,12 +69,12 @@ function ComponentFive() {
               style={{ marginTop: "-38px" }}
             ></span>
           </div>
-          <div className="row mt-5">
+          <div className="row mt-5 analytics-details">
             {dataSet.map((data) => {
               return (
                 <div
                   key={data.id}
-                  className="bg-white ml-4 mb-3 pb-5 col-sm-3 col-7 d-flex flex-column align-items-lg-center   col-md-3 mr-3 pt-5"
+                  className="bg-white ml-4 mb-3 pb-5 col-sm-12 d-flex flex-column align-items-lg-center col-md-3 mr-3 pt-5"
                   style={{
                     borderRadius: 10,
                     boxShadow: "1px 2px 5px rgba(0,0,0,1.25)",

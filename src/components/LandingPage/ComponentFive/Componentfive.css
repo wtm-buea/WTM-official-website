@@ -41,6 +41,7 @@
 .main div {
   margin: 0 auto;
   width: 80vw;
+  padding-left: 7rem;
 }
 
 .main .body-details {
@@ -49,6 +50,7 @@
   color: #fff;
   text-align: justify;
   width: 70vw;
+   padding-left: 7rem;
 }
 
 .num {
@@ -78,12 +80,18 @@
 
   .title {
     color: #1b3c34;
-    font-size: 1.4rem;
-    align-items: center;
+    font-size: 2rem;
+    margin-left: 2rem;
+    justify-content: center;
   }
 
   .data-icon {
     width: 3rem;
+    margin-left: 12rem;
+  }
+
+  .num, .title {
+     text-align: center;
   }
   
   p.heading {
@@ -93,6 +101,14 @@
   .main .body-details {
     font-size: 1.5rem;
   }
+
+  .main div, .main .body-details {
+  padding-left: 0;
+}
+
+.analytics-details {
+  padding-left: 10rem;
+}
 
 }
 

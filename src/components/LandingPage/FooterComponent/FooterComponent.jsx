@@ -13,7 +13,7 @@ export default function FooterComponent() {
     return (
         <div className="container-fluid wrapper">
             <div className="row">
-                <div className="col-md-5 p-5">
+                <div className="col-sm-12 col-md-5 p-5">
                     <div className="text-center quote-box">
                         <div className="gradient-bar"></div>
                         <div className="p-5">
@@ -21,27 +21,23 @@ export default function FooterComponent() {
                                 src={women_techmakers}
                                 alt="Women techmakers"
                                 className="img img-fluid"
-                                style={{ width: "100%" }}
                             />
                             <h2 className="buea">Buea</h2>
 
-                            <div
-                                className="pb-5"
-                                style={{ marginTop: 80, fontSize: 30, lineHeight: 2 }}
-                            >
+                            <div className="quote-details">
                                 <span className="quote">
                                     “Surround yourself with a trusted and{" "}
                                 </span>
                                 <span className="quote">loyal team. It makes all the</span>
                                 <span className="quote">difference"</span>
                             </div>
-                            <span className="quote-author" style={{ fontSize: 50 }}>
+                            <span className="quote-author">
                                 ~Alison Pincus
                             </span>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-3 pt-5">
+                <div className="col-sm-5 col-md-3 pt-5">
                     <h2 className="quick-links">Quick Links</h2>
 
                     <ul className="list">
@@ -52,7 +48,7 @@ export default function FooterComponent() {
                         <li className="list-item">Our Vision</li>
                     </ul>
                 </div>
-                <div className="col-md-4 pt-5 p-3">
+                <div className="col-sm-6 col-md-4 pt-5 p-3">
                     <h2 className="quick-links">Stay in touch</h2>
 
                     <ul className="list">
