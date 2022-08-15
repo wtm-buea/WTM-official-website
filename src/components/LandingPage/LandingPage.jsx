@@ -10,7 +10,7 @@ import Comp7 from "./FooterComponent/FooterComponent";
 function LandingPage() {
     return (
         <>
-            {/* <Comp1 /> */}
+            <Comp1 />
             <Comp2 />
             {/* <Comp3 />
             <Comp4 />
