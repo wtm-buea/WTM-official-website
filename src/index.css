@@ -1,7 +1,9 @@
-* {
-  box-sizing: border-box;
+*,
+**::after,
+**::before {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,14 +11,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+html {
+  font-size: 62.5%;
 }
 
 body {
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 code {
@@ -30,45 +31,45 @@ code {
 }
 
 .heading-secondary-1 {
-  font-size: 35px;
+  font-size: 3.5rem;
 }
 
 .heading-secondary-2 {
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .underline-normal {
   display: block;
-  width: 50px;
-  height: 5px;
+  width: 5rem;
+  height: .5rem;
   background-color: #1CE9B6;
-  border-radius: 5px;
-  margin-top: 80px;
+  border-radius: .5rem;
+  margin-top: 8rem;
 }
 
 .underline-bold {
   display: block;
-  width: 70px;
-  height: 9px;
+  width: 7rem;
+  height: .9rem;
   background-color: #1CE9B6;
-  border-radius: 5px;
-  margin-top: 10px;
+  border-radius: .5rem;
+  margin-top: 1rem;
 }
 
 .underline-large {
   display: block;
-  width: 120px;
-  height: 6px;
+  width: 12rem;
+  height: .6rem;
   background-color: #1CE9B6;
-  border-radius: 5px;
-  margin-top: 10px;
+  border-radius: .5rem;
+  margin-top: 1rem;
 }
 
 .heading-h3 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 2.8rem;
   line-height: 1.5;
-  padding: 0 30px;
+  padding: 0 3rem;
   font-family: Roboto;
   color: #5C5A5A;
 }

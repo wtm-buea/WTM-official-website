@@ -3,26 +3,27 @@ import styles from "./hero.module.css";
 
 function Hero() {
   return (
-    <div className={styles.heroImage}>
+    <section className={styles.heroImage}>
       <div className={styles.heroText}>
         <h1>
           Women shouldn't be afraid to <br /> put themselves forward.
         </h1>
         <section>
-          <div className={styles.top}>
-            <span> WTM </span>
+          <div className={styles.left}>
+            <span>WTM</span>
+            <span className={styles.underline}></span>
+          </div>
+          <div className={styles.center}>
             <span className={styles.star}>★</span>
+            <span className={styles.year}>2015</span>
+          </div>
+          <div className={styles.right}>
             <span>Buea</span>
+            <span className={styles.underline}></span>
           </div>
-          <div className={styles.bottom}>
-            <div></div>
-            <span className={styles.bottomText}>2015</span>
-            <div></div>
-          </div>
-
         </section>
       </div>
-    </div>
+    </section>
   );
 }
 
