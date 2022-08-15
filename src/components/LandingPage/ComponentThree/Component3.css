@@ -1,4 +1,36 @@
-.whatWeDo {
-    font-size: "66px";
-    font-weight: "400";
+.sectionWhatWeOffer {
+    margin-top: 6rem; 
+}
+
+.sectionDetails h3, .sectionAbout h3 {
+    font-size: 2.5rem !important;
+    font-weight: 600;
+}
+
+.sectionDetails img {
+    height: 10vh;
+}
+
+.sectionDetails {
+    padding-left: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .sectionWhatWeOffer {
+        margin-top: 1rem; 
+    }
+
+    .sectionWhatWeOffer, .sectionAbout {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .sectionAbout h3, .sectionDetails h3 {
+        font-size: 2rem !important;
+    }
+
+
+    .sectionAbout h2, .sectionWhatWeOffer h2 {
+         font-size: 2.5rem !important;
+    }
 }

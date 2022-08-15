@@ -3,25 +3,27 @@ import styles from "./hero.module.css";
 
 function Hero() {
   return (
-    <div>
-      <div className={styles.imgFluid}>
-        <div className={`${styles.jumbotron} ${styles.TextCenter}`}>
-          <div className={styles.container}>
-            <h1 className={styles.textDisplay4}>
-              Women shouldn't be afraid to <br /> put themselves forward.
-            </h1>
-            <div className={styles.bottomTextDiv}>
-              <div className={styles.bottomText}> WTM </div>
-              <div className={styles.bottomTextMid}>
-                <div className={styles.innerBottomTextDiv}>★</div>
-                <div className={styles.innerBottomTextDiv}>2015</div>
-              </div>
-              <div className={styles.bottomText}>Buea</div>
-            </div>
+    <section className={styles.heroImage}>
+      <div className={styles.heroText}>
+        <h1>
+          Women shouldn't be afraid to <br /> put themselves forward.
+        </h1>
+        <section>
+          <div className={styles.left}>
+            <span>WTM</span>
+            <span className={styles.underline}></span>
           </div>
-        </div>
+          <div className={styles.center}>
+            <span className={styles.star}>★</span>
+            <span className={styles.year}>2015</span>
+          </div>
+          <div className={styles.right}>
+            <span>Buea</span>
+            <span className={styles.underline}></span>
+          </div>
+        </section>
       </div>
-    </div>
+    </section>
   );
 }
 
