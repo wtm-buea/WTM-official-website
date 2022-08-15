@@ -6,7 +6,7 @@
 
 .section-image {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 img.group-image1, img.group-image2 {
