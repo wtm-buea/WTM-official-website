@@ -3,7 +3,8 @@
   display: flex;
   position: absolute;
   top: 0;
-  padding-top: 4rem;
+  padding-top: 5rem;
+  padding-left: 1rem;
   z-index: 1;
   justify-content: space-between;
   height: 10vh;
@@ -28,7 +29,7 @@
   color: #d1c3c3;
   text-decoration: none;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 3rem;
   margin: 3rem;
 }
 
@@ -47,19 +48,20 @@ li a:focus {
 }
 
 
-@media only screen and (max-width: 1460px) {
-  .navWrapper {
-    max-width: 90vw;
-  }
+@media only screen and (max-width: 1200px) {
+  .logoSection {
+      width: 30%;
+    } 
 
   .navRight {
-    width: 60%;
-  }
+      padding-right: 1rem;
+      width: 60%;
+    }
 
-   .navRightChild .link {
-    font-size: 25px;
-    margin: 0;
-  }
+  .navRightChild .link {
+      font-size: 2.5rem;
+      margin: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -73,20 +75,19 @@ li a:focus {
 
   .logoSection {
     width: 40%;
-    padding-left: 2rem;
   }
 
   .dropdownContainer {
     position: relative;
     display: inline-block;
-    width: 15vw;
+    width: 10vw;
   }
 
   .hamburgerIcon {
     height: 4rem;
     width: 4rem;
     color: black;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 1rem;
     margin-bottom: 5rem;
     background: #fff;
@@ -99,7 +100,8 @@ li a:focus {
     top: 100%;
     left: 0;
     width: 13rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-left: -10rem;
     z-index: 2;
     border: 1px solid rgba(0, 0, 0, 0.04);
     border-radius: 0.5rem;
@@ -114,7 +116,7 @@ li a:focus {
   }
 
   li {
-    padding: 8px 12px;
+    padding: 0.8rem 1.2rem;
   }
 
   .dropdownContainer ul li a {
@@ -124,6 +126,6 @@ li a:focus {
   }
 
   .logoSection {
-    margin-top: 5px;
+    margin-top: .5rem;
   }
 }
