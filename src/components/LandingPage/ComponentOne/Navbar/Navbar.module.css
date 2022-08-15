@@ -3,7 +3,7 @@
   display: flex;
   position: absolute;
   top: 0;
-  padding-top: 4rem;
+  padding-top: 5rem;
   padding-left: 1rem;
   z-index: 1;
   justify-content: space-between;
@@ -29,7 +29,7 @@
   color: #d1c3c3;
   text-decoration: none;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 3rem;
   margin: 3rem;
 }
 
@@ -59,7 +59,7 @@ li a:focus {
     }
 
   .navRightChild .link {
-      font-size: 25px;
+      font-size: 2.5rem;
       margin: 0;
     }
 }
@@ -87,7 +87,7 @@ li a:focus {
     height: 4rem;
     width: 4rem;
     color: black;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 1rem;
     margin-bottom: 5rem;
     background: #fff;
@@ -116,7 +116,7 @@ li a:focus {
   }
 
   li {
-    padding: 8px 12px;
+    padding: 0.8rem 1.2rem;
   }
 
   .dropdownContainer ul li a {
@@ -126,6 +126,6 @@ li a:focus {
   }
 
   .logoSection {
-    margin-top: 5px;
+    margin-top: .5rem;
   }
 }
