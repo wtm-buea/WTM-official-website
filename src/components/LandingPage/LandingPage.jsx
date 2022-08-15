@@ -15,8 +15,8 @@ function LandingPage() {
             <Comp3 />
             <Comp4 />
             <Comp5 />
-            {/*<Comp6 />
-            <Comp7 /> */}
+            <Comp6 />
+            {/*<Comp7 /> */}
         </>
     )
 }

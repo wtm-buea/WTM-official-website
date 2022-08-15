@@ -54,6 +54,7 @@
 .num {
   color: #1b3c34;
   font-size: 3.2rem;
+  margin-top: .2rem;
 }
 
 .data-icon {
@@ -73,7 +74,6 @@
 @media only screen and (max-width: 768px) {
   .num {
     font-size: 2.1rem;
-    margin-top: .2rem;
   }
 
   .title {
