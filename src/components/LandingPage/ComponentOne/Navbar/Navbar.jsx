@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import logo from "../../../../Assets/images/women_techmakers.png";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const routes = ["/", "/events", "/blog", "success-stories"];
   const [state, setState] = useState('none');
 
@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <section className={styles.navWrapper}>
+      <section className={styles[props.styles]}>
         <section className={styles.logoSection}>
           <img src={logo} className={styles.logo} alt="logo" />
         </section>

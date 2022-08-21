@@ -11,6 +11,20 @@
   max-width: 100%;
 }
 
+.navWrapperLight {
+  background-color: #fff;
+  box-shadow: 0px 8px 45px rgba(24, 15, 15, 0.25);
+  display: flex;
+  position: absolute;
+  top: 0;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  z-index: 1;
+  justify-content: space-between;
+  height: 15vh;
+  max-width: 100%;
+}
+
 .logoSection {
   width: 25%;
 }
@@ -33,8 +47,13 @@
   margin: 3rem;
 }
 
-.navRightChild .link:hover {
+.navWrapper .navRightChild .link:hover {
   color: #fff;
+  border: 0;
+}
+
+.navWrapperLight .navRightChild .link:hover {
+  color: #000;
   border: 0;
 }
 
