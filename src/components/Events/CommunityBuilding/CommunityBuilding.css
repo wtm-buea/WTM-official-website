@@ -1,0 +1,22 @@
+
+.section-community-building {
+    margin-top: 10rem;
+    padding-top: 10rem;
+}
+
+.illustration-box img {
+    height: 60vh;
+}
+
+.section-community-building .section-description {
+    padding: 6rem;
+}
+
+.section-description h3 {
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.section-description span {
+    font-size: 2rem;
+}

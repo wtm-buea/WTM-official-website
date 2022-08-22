@@ -1,0 +1,19 @@
+.events-tab{
+    padding-left: 65%;
+    
+}
+
+.events-tab a{
+    color: black;
+}
+
+.events-tab .rectangle{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(6, 243, 192);
+    margin-top: 0px;
+}
+
+.events-tab p{
+    margin-bottom: 0;  
+}

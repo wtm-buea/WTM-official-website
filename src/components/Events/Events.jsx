@@ -1,13 +1,13 @@
-import PastEvents from "./PastEvents/PastEvents";
-import UpcomingEvents from "./UpcomingEvents/UpcomingEvents";
 import NavBar from "./../LandingPage/ComponentOne/Navbar/Navbar";
+import CommunityBuilding from "./CommunityBuilding/CommunityBuilding";
+import EventsMain from "./EventsMain/EventsMain";
 
 function Events() {
     return (
         <>
             <NavBar styles="navWrapperLight" />
-            <PastEvents />
-            <UpcomingEvents />
+            <CommunityBuilding />
+            <EventsMain />
         </>
     )
 }
