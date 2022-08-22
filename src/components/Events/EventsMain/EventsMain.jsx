@@ -4,19 +4,39 @@ import "./EventsMain.css";
 import { useState } from "react";
 
 function EventsMain() {
-    const [eventType, setEventType] = useState('past');
+    const [eventType, setEventType] = useState("past");
     return (
         <>
-            <div className="bg-light">
-                <div className="events-tab"><p><a onClick={() => { setEventType('past') }}>Past events</a>&nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;<a onClick={() => { setEventType('upcoming') }}>Upcoming Events</a></p>
-                    <div className="rectangle"></div>
+            <div className="bg-light events-main-section">
+                <div className="events-tab">
+                    <span>
+                        <a
+                            href="#"
+                            onClick={() => {
+                                setEventType("past");
+                            }}
+                        >
+                            Past Events
+                        </a>
+                        <div className="rectangle"></div>
+                    </span>
+                    <span>
+                        <a
+                            href="#"
+                            onClick={() => {
+                                setEventType("upcoming");
+                            }}
+                        >
+                            Upcoming Events
+                        </a>
+                        <div className="rectangle"></div>
+                    </span>
                 </div>
                 <PastEvents eventType={eventType} />
                 <UpcomingEvents eventType={eventType} />
             </div>
         </>
-    )
+    );
 }
 
 export default EventsMain;

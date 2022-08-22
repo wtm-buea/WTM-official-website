@@ -7,7 +7,7 @@ function Events() {
         <>
             <NavBar styles="navWrapperLight" />
             <CommunityBuilding />
-            {/* <EventsMain /> */}
+            <EventsMain />
         </>
     )
 }

@@ -1,18 +1,131 @@
-.events-tab{
-   float: right;
-    
+.events-main-section {
+  padding-top: 4rem;
 }
 
-.events-tab a{
-    color: black;
+.events-tab {
+  float: right;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  padding-right: 4rem;
 }
 
-.events-tab .rectangle{
-    width: 50px;
-    height: 8px;
-    background-color: rgb(6, 243, 192);
+.events-tab a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
 }
 
-.events-tab p{
-    margin-bottom: 0;  
+.events-tab a:focus ~ div.rectangle {
+  width: 8rem;
+  height: 1rem;
+  margin-left: 0.2rem;
+  background-color: rgb(6, 243, 192);
+}
+
+.events-container {
+  padding: 4rem 4rem 2rem 4rem;
+}
+
+.events-container .row {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.events-container img {
+  height: 55vh;
+  box-shadow: 20px 20px 20px #ccc;
+}
+
+.events-container h1 {
+  background: linear-gradient(
+    to right,
+    #1ce9b6 52.23%,
+    #f1f4f8 52.23%,
+    #4cadf6 52.23%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 5rem;
+  margin-left: 6rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+
+.events-container .event-description {
+  padding-left: 4rem;
+}
+
+.events-container h5 {
+  padding-bottom: 2rem;
+  color: rgba(92, 33, 18, 0.712);
+  font-size: 2rem;
+}
+
+.events-container h5 span {
+  color: rgba(5, 56, 104, 0.877);
+}
+
+.events-container h4 {
+  padding-top: 3.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.events-container p {
+  font-size: 4rem;
+  color: rgba(69, 54, 54, 0.6);
+  padding-right: 8rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .events-tab {
+    width: 50vw;
+  }
+
+  .events-container img {
+    height: 60vh;
+  }
+
+  .events-container h4 {
+    padding-top: 0;
+    font-size: 3rem;
+  }
+
+  .events-container p {
+    font-size: 3rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .events-tab {
+    float: none;
+    width: 90vw;
+    padding-right: 0;
+    padding-left: 2rem;
+  }
+
+  .events-container {
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  .events-container h1 {
+    font-size: 4rem;
+    margin-left: 0;
+  }
+
+  .events-container .event-description {
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+
+  .events-container h5 {
+    padding-bottom: 1rem;
+  }
+
+  .events-container p {
+    font-size: 3rem;
+    padding-right: 0;
+  }
 }
