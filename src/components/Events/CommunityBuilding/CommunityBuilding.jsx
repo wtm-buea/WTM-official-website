@@ -7,14 +7,14 @@ function CommunityBuilding() {
     return (
         <div className="container-fluid section-community-building">
             <div className="row">
-                <div className="col-sm-12 col-md-6 illustration-box">
+                <div className="d-none d-md-block col-md-6 illustration-box">
                     <img src={img} alt="community_illustration" />
                 </div>
                 <div className="col-sm-12 col-md-6 section-description">
                     <h3>Community Building</h3>
                     <span>
-                        Giving back to the community  is something we strongly beleive in
-                        so we organise events and give opportunity to ladies to learn and grow in tech
+                        Giving back to the community is something we strongly believe in
+                        so we organise events and give opportunities to ladies to learn and grow in tech.
                     </span>
                 </div>
             </div>

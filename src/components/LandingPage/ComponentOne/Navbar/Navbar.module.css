@@ -84,22 +84,22 @@ li a:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .navWrapperLight .hamburgerIcon {
+    box-shadow: 0px 8px 45px rgba(24, 15, 15, 0.25);
+  }
+
   .navRight {
     display: none;
   }
 
   .dropdownContainer {
-    display: block;
+    display: inline-block;
+    position: relative;
+    width: 15vw;
   }
 
   .logoSection {
     width: 40%;
-  }
-
-  .dropdownContainer {
-    position: relative;
-    display: inline-block;
-    width: 10vw;
   }
 
   .hamburgerIcon {

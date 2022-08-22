@@ -1,22 +1,67 @@
-
 .section-community-building {
-    margin-top: 10rem;
-    padding-top: 10rem;
+  margin-top: 10rem;
+  padding-top: 10rem;
 }
 
 .illustration-box img {
-    height: 60vh;
+  height: 60vh;
 }
 
 .section-community-building .section-description {
-    padding: 6rem;
+  padding: 2rem 6rem 6rem 6rem;
 }
 
 .section-description h3 {
-    font-size: 7rem;
-    font-weight: 400;
+  font-size: 7rem;
+  font-weight: 400;
+  width: 30vw;
+  margin-bottom: 4rem;
 }
 
 .section-description span {
+  font-size: 2rem;
+  color: #6f6f6f;
+}
+
+@media only screen and (max-width: 992px) {
+  .section-community-building {
+    margin-top: 4rem;
+  }
+
+  .section-community-building .section-description {
+    padding: 2rem 8rem 6rem 8rem;
+  }
+
+  .section-description h3 {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-description span {
+    font-size: 1.8rem;
+    color: #6f6f6f;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-community-building {
+    margin-top: 2rem;
+    padding-top: 4rem;
+  }
+
+  .section-community-building .section-description {
+    max-width: 100vw;
+    padding: 6rem 2rem 3rem 2rem;
+  }
+
+  .section-description h3 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+  .section-description span {
     font-size: 2rem;
+    color: #6f6f6f;
+  }
 }
