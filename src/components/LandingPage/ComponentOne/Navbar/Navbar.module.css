@@ -3,12 +3,30 @@
   display: flex;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   padding-top: 5rem;
   padding-left: 1rem;
   z-index: 1;
   justify-content: space-between;
   height: 10vh;
   max-width: 100%;
+}
+
+.navWrapperLight {
+  background-color: #fff;
+  box-shadow: 0px 8px 45px rgba(24, 15, 15, 0.25);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  z-index: 1;
+  justify-content: space-between;
+  height: 15vh;
+  max-width: 150%;
 }
 
 .logoSection {
@@ -33,14 +51,26 @@
   margin: 3rem;
 }
 
-.navRightChild .link:hover {
+.navWrapper .navRightChild .link:hover {
   color: #fff;
   border: 0;
 }
 
-.navRightChild .link:focus,
-li a:focus {
+.navWrapperLight .navRightChild .link:hover {
+  color: #000;
+  border: 0;
+}
+
+
+.link.activeLink, 
+.navWrapper .navRightChild .link.activeLink:hover, 
+.navWrapperLight .navRightChild .link.activeLink:hover {
   border-bottom: 0.5rem solid #1ce9b6;
+  color: #d1c3c3;
+}
+
+.navWrapper .navRightChild .link.activeLink {
+  color: #fff;
 }
 
 .dropdownContainer {
@@ -65,22 +95,22 @@ li a:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .navWrapperLight .hamburgerIcon {
+    box-shadow: 0px 8px 45px rgba(24, 15, 15, 0.25);
+  }
+
   .navRight {
     display: none;
   }
 
   .dropdownContainer {
-    display: block;
+    display: inline-block;
+    position: relative;
+    width: 15vw;
   }
 
   .logoSection {
     width: 40%;
-  }
-
-  .dropdownContainer {
-    position: relative;
-    display: inline-block;
-    width: 10vw;
   }
 
   .hamburgerIcon {
