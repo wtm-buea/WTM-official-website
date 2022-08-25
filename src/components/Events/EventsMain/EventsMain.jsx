@@ -5,31 +5,34 @@ import { useState } from "react";
 
 function EventsMain() {
     const [eventType, setEventType] = useState("past");
+    const [state, setState] = useState(true);
     return (
         <>
             <div className="bg-light events-main-section">
                 <div className="events-tab">
                     <span>
-                        <a
-                            href="#"
+                        <button
                             onClick={() => {
                                 setEventType("past");
+                                setState(!state);
                             }}
                         >
                             Past Events
-                        </a>
-                        <div className="rectangle"></div>
+                        </button>
+                        <div className={state && eventType === 'past' ? "focus" : ""}></div>
                     </span>
                     <span>
-                        <a
-                            href="#"
+                        <button
                             onClick={() => {
                                 setEventType("upcoming");
+                                console.log(eventType);
+                                setState(!state);
+                                console.log(state);
                             }}
                         >
                             Upcoming Events
-                        </a>
-                        <div className="rectangle"></div>
+                        </button>
+                        <div className={state && eventType === 'upcoming' ? "focus" : ""}></div>
                     </span>
                 </div>
                 <PastEvents eventType={eventType} />

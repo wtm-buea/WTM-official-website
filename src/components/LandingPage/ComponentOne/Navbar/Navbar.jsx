@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import styles from "./Navbar.module.css";
 import logo from "../../../../Assets/images/women_techmakers.png";
 
 const Navbar = (props) => {
   const routes = ["/", "/events", "/blog", "success-stories"];
-  const [state, setState] = useState('none');
+  const [state, setState] = useState("none");
 
   const toggleDropdown = () => {
-    if (state === 'none') {
-      setState('block');
+    if (state === "none") {
+      setState("block");
     } else {
-      setState('none');
+      setState("none");
     }
   };
 
@@ -24,39 +24,73 @@ const Navbar = (props) => {
         </section>
         <section className={styles.navRight}>
           <section className={styles.navRightChild}>
-            <Link to={routes[0]} className={styles.link}>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? styles.activeLink + " " + styles.link : styles.link
+              }
+              to={routes[0]}
+            >
               Home
-            </Link>
+            </NavLink>
           </section>
           <section className={styles.navRightChild}>
-            <Link to={routes[1]} className={styles.link}>
+            <NavLink
+              to={routes[1]}
+              className={({ isActive }) =>
+                isActive ? styles.activeLink + " " + styles.link : styles.link
+              }
+            >
               Events
-            </Link>
+            </NavLink>
           </section>
-          <section className={styles.navRightChild}>
-            <Link to={routes[2]} className={styles.link}>
+          {/* <section className={styles.navRightChild}>
+            <NavLink to={routes[2]} className={styles.link}>
               Our Blog
-            </Link>
-          </section>
+            </NavLink>
+          </section> */}
           <section className={styles.navRightChild}>
-            <Link to={routes[3]} className={styles.link}>
+            <NavLink
+              to={routes[3]}
+              className={({ isActive }) =>
+                isActive ? styles.activeLink + " " + styles.link : styles.link
+              }
+            >
               Success Stories
-            </Link>
+            </NavLink>
           </section>
         </section>
         <section className={styles.dropdownContainer}>
-          <span
-            className={`${styles.hamburgerIcon}`}
-            onClick={toggleDropdown}
-          >
+          <span className={`${styles.hamburgerIcon}`} onClick={toggleDropdown}>
             <i className="fa-solid fa-bars"></i>
           </span>
           <div className={styles.dropdownMenu} style={{ display: state }}>
             <ul>
-              <li><Link to={routes[0]} className={styles.link}>Home</Link></li>
-              <li><Link to={routes[1]} className={styles.link}>Events</Link></li>
-              <li><Link to={routes[2]} className={styles.link}>Our Blog</Link></li>
-              <li><Link to={routes[3]} className={styles.link}>Success Stories</Link></li>
+              <li>
+                <NavLink to={routes[0]} className={({ isActive }) =>
+                  isActive ? styles.activeLink + " " + styles.link : styles.link
+                }>
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to={routes[1]} className={({ isActive }) =>
+                  isActive ? styles.activeLink + " " + styles.link : styles.link
+                }>
+                  Events
+                </NavLink>
+              </li>
+              {/* <li>
+                <NavLink to={routes[2]} className={styles.link}>
+                  Our Blog
+                </NavLink>
+              </li> */}
+              <li>
+                <NavLink to={routes[3]} className={({ isActive }) =>
+                  isActive ? styles.activeLink + " " + styles.link : styles.link
+                }>
+                  Success Stories
+                </NavLink>
+              </li>
             </ul>
           </div>
         </section>

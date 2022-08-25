@@ -3,6 +3,8 @@
   display: flex;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   padding-top: 5rem;
   padding-left: 1rem;
   z-index: 1;
@@ -17,12 +19,14 @@
   display: flex;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   padding-top: 3rem;
   padding-left: 1rem;
   z-index: 1;
   justify-content: space-between;
   height: 15vh;
-  max-width: 100%;
+  max-width: 150%;
 }
 
 .logoSection {
@@ -57,9 +61,16 @@
   border: 0;
 }
 
-.navRightChild .link:focus,
-li a:focus {
+
+.link.activeLink, 
+.navWrapper .navRightChild .link.activeLink:hover, 
+.navWrapperLight .navRightChild .link.activeLink:hover {
   border-bottom: 0.5rem solid #1ce9b6;
+  color: #d1c3c3;
+}
+
+.navWrapper .navRightChild .link.activeLink {
+  color: #fff;
 }
 
 .dropdownContainer {
