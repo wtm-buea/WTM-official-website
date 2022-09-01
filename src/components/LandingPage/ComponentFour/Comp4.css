@@ -22,6 +22,11 @@ img.group-image1, img.group-image2 {
     margin-top: -4rem;
 }
 
+p.achievement-details {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
 
 @media only screen and (max-width: 768px) {
    #sectionAchievements {
@@ -33,8 +38,8 @@ img.group-image1, img.group-image2 {
     }
 
     .section-image {
-    justify-content: center;
-}
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 480px) {

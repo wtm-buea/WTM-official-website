@@ -55,7 +55,7 @@ function ComponentFive() {
             ></span>
           </div>
           <p
-            className="mt-5 pr-5 body-details"
+            className="mt-5 pr-5 why-us-details"
           >
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

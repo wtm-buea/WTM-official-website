@@ -49,7 +49,7 @@ const Data = ({ img, title, body }) => {
       <h3>
         {title}
       </h3>
-      <p>{body}</p>
+      <p className="offers-body">{body}</p>
     </div>
   );
 };

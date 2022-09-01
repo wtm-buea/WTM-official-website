@@ -30,7 +30,7 @@
 }
 
 .logoSection {
-  width: 25%;
+  width: 20%;
 }
 
 .logo {
@@ -38,7 +38,7 @@
 }
 
 .navRight {
-  width: 50%;
+  min-width: 30%;
   justify-content: space-between;
   display: flex;
 }
@@ -47,7 +47,7 @@
   color: #d1c3c3;
   text-decoration: none;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 3rem;
 }
 
@@ -79,17 +79,11 @@
 
 
 @media only screen and (max-width: 1200px) {
-  .logoSection {
-      width: 30%;
-    } 
-
   .navRight {
       padding-right: 1rem;
-      width: 60%;
     }
 
   .navRightChild .link {
-      font-size: 2.5rem;
       margin: 0;
     }
 }
@@ -110,7 +104,7 @@
   }
 
   .logoSection {
-    width: 40%;
+    width: 30%;
   }
 
   .hamburgerIcon {
@@ -131,7 +125,7 @@
     left: 0;
     width: 13rem;
     margin-top: 2rem;
-    margin-left: -10rem;
+    margin-left: -8rem;
     z-index: 2;
     border: 1px solid rgba(0, 0, 0, 0.04);
     border-radius: 0.5rem;

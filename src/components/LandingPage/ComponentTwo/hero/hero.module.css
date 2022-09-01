@@ -27,7 +27,7 @@
 }
 
 .heroText h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 8rem;
 }
 
@@ -36,7 +36,7 @@
     margin: 3rem  auto 0 auto;
     justify-content: space-between;
     width: 30%;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Roboto';
 }
 
@@ -50,11 +50,12 @@
 }
 
 .heroText section div .star {
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 .heroText section div .year {
-    margin-top: -3rem;
+    margin-top: -2rem;
+    font-size: 3rem;
 }
 
 
@@ -72,7 +73,7 @@
     }
 
      .heroText h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 }
 
@@ -82,7 +83,7 @@
     }
 
     .heroText h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 6rem;
     }
 
@@ -91,7 +92,12 @@
     }
 
     .heroText section div .star {
-        font-size: 8rem;
+        font-size: 6rem;
+    }
+
+    .heroText section div .year {
+        margin-top: .5rem;
+        font-size: 2rem;
     }
 }
 
@@ -112,7 +118,7 @@
     }
 
     .heroText section {
-        font-size: 2rem;
+        font-size: 3rem;
         width: 55%;
     }
 
