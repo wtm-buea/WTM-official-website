@@ -44,9 +44,9 @@
   padding-left: 7rem;
 }
 
-.main .body-details {
+p.why-us-details {
   font-weight: 500;
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #fff;
   text-align: justify;
   width: 70vw;
@@ -70,7 +70,7 @@
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -95,7 +95,7 @@
   }
   
   p.heading {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .main .body-details {
@@ -117,6 +117,6 @@
     height: auto;
   }
   .heading {
-    font-size: 18px;
+    font-size: 1.5rem;
   }
 }

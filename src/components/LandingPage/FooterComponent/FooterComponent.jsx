@@ -20,7 +20,7 @@ export default function FooterComponent() {
                             <img
                                 src={women_techmakers}
                                 alt="Women techmakers"
-                                className="img img-fluid"
+                                className="img img-fluid logo"
                             />
                             <h2 className="buea">Buea</h2>
 

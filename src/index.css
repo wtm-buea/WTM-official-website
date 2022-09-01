@@ -31,11 +31,11 @@ code {
 }
 
 .heading-secondary-1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .heading-secondary-2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .underline-normal {
@@ -67,7 +67,7 @@ code {
 
 .heading-h3 {
   font-weight: 600;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   padding: 0 3rem;
   font-family: Roboto;
