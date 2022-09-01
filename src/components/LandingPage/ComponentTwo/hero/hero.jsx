@@ -15,7 +15,7 @@ function Hero() {
           </div>
           <div className={styles.center}>
             <span className={styles.star}>★</span>
-            <span className={styles.year}>2015</span>
+            <span className={styles.year}>Since 2012 to 2022</span>
           </div>
           <div className={styles.right}>
             <span>Buea</span>

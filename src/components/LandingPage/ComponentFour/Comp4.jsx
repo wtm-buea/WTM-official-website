@@ -62,7 +62,7 @@ export default function Comp4() {
                 <div className="d-flex mt-3" key={data.id}>
                   <img src={Hand} width="30px" height="30px" alt="icon" />
                   <p
-                    className="pl-3"
+                    className="pl-3 achievement-details"
                     style={{
                       fontWeight: "300",
                     }}
