@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 import logo from "../../../../Assets/images/women_techmakers.png";
 
 const Navbar = (props) => {
-  const routes = ["/", "/events", "/blog", "success-stories"];
+  const routes = ["/", "/events", "/blog", "/success-stories"];
   const [state, setState] = useState("none");
 
   const toggleDropdown = () => {
