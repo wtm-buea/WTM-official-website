@@ -1,27 +1,34 @@
 import React, { useState } from "react";
-import TextTruncate from 'react-text-truncate';
+import Truncate from 'react-truncate';
 import Navbar from "../LandingPage/ComponentOne/Navbar/Navbar";
 import "./SuccessStories.css";
 import { stories } from "./stories.data";
 import linkedInIcon from "../../Assets/icons/icon_linkedIn.jpg";
 
 function SuccessStories() {
-  const [less, toggleLess] = useState(true);
-  const [more, toggleMore] = useState(false);
+  const [truncated, setTruncated] = useState(false);
 
-  const handleTruncate = () => {
+  const toggleLines = (id) => {
+    // const item = items.find(item => id === item.id);
+    // console.log(item);
+    // item.isTruncated = true;
+    // if (item.isTruncated) setTruncated(!truncated);
 
+    stories[id].isTruncated = true;
   }
+
   return (
     <>
       <Navbar styles="navWrapperLight" />
       <div className="list container">
+        <h1 className="display-2 font-weight-normal text-dark page-heading">Success Stories</h1>
         <div className="row">
           {stories.map((item) => (
             <div
-              class="card col-md-5 list-item"
+              className="card col-sm-12 col-md-5 list-item"
+              key={item.id}
             >
-              <div className="card-header d-flex list-item-header">
+              <div className="card-header d-flex list-item-header bg-white">
                 <img
                   src={item.image}
                   alt="item-img"
@@ -41,15 +48,15 @@ function SuccessStories() {
                   </span>
                 </span>
               </div>
-              <div class="card-body">
-                <TextTruncate
-                  line={8}
-                  element="span"
-                  truncateText="…"
-                  text={item.description}
-                  textTruncateChild={<a href="#">more</a>}
-                  className="card-text d-block text-dark"
-                />
+              <div className="card-body">
+                <Truncate className="card-text text-justify"
+                  lines={!truncated && 8}
+                  ellipsis={<span>... <button onClick={() => toggleLines(item.id)} className="text-primary btn">more</button></span>}>
+                  {item.description}
+                </Truncate>
+                {truncated && item.isTruncated && (
+                  <span> <button className="text-primary btn" onClick={() => toggleLines(item.id)}>less</button></span>
+                )}
               </div>
             </div>
           ))}
