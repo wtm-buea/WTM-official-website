@@ -7,14 +7,14 @@ import linkedInIcon from "../../Assets/icons/icon_linkedIn.jpg";
 
 function SuccessStories() {
   const [truncated, setTruncated] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
-  const toggleLines = (id) => {
-    // const item = items.find(item => id === item.id);
-    // console.log(item);
-    // item.isTruncated = true;
-    // if (item.isTruncated) setTruncated(!truncated);
+  const toggleLines = () => {
+    setExpanded(!expanded);
+  }
 
-    stories[id].isTruncated = true;
+  const handleTruncate = () => {
+    setTruncated(truncated);
   }
 
   return (
@@ -50,12 +50,14 @@ function SuccessStories() {
               </div>
               <div className="card-body">
                 <Truncate className="card-text text-justify"
-                  lines={!truncated && 8}
-                  ellipsis={<span>... <button onClick={() => toggleLines(item.id)} className="text-primary btn">more</button></span>}>
+                  lines={!expanded && 8}
+                  ellipsis={<span>... <button onClick={toggleLines} className="text-primary btn">more</button></span>}
+                  onTruncate={handleTruncate}
+                >
                   {item.description}
                 </Truncate>
-                {truncated && item.isTruncated && (
-                  <span> <button className="text-primary btn" onClick={() => toggleLines(item.id)}>less</button></span>
+                {!truncated && expanded && (
+                  <span> <button className="text-primary btn" onClick={toggleLines}>less</button></span>
                 )}
               </div>
             </div>
