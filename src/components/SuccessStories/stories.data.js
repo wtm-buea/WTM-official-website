@@ -1,7 +1,11 @@
 import image1 from '../../Assets/images/mpara_faith.jpg';
 import image2 from '../../Assets/images/daisy_nkweteyim.jpg';
 import image3 from '../../Assets/images/tambe_tabitha.jpg';
-import image4 from '../../Assets/images/amanda_shafack.jpg'
+import image4 from '../../Assets/images/amanda_shafack.jpg';
+import image5 from '../../Assets/images/diane_wilma.jpg';
+import image6 from '../../Assets/images/ngong_ivan.jpg';
+import image7 from '../../Assets/images/angelah_lum_neh.jpg';
+import image8 from '../../Assets/images/perside_rosalie.jpg';
 
 export const stories = [
     {
@@ -42,6 +46,46 @@ export const stories = [
         linkedIn: 'https://www.linkedin.com/in/tambe-tabitha-achere/',
         description: 'Member since 2016 as a Student of FET in the University of Buea, studied Electrical and Electronic Engineering, joined WTM Buea and developed interest in Data Science.Became Community lead 2019-2020 after Shafack Amanda. Her persistence in Data Engineering led her to find a job as a Data Analyst in Social Finance, London United Kingdom.',
         isTruncated: false
-    }
+    },
+
+    {
+        id: 4,
+        image: image5,
+        name: 'Diane-Wilma Temeching',
+        title: 'Pioneer organizer team member',
+        linkedIn: 'https://www.linkedin.com/in/diane-wilma-temeching/',
+        description: 'Techwomen Fellow\nSoftware Developer, GFT Group, Quebec, Canada',
+        isTruncated: false
+    },
+
+    {
+        id: 5,
+        image: image6,
+        name: 'Ngong Ivan',
+        title: '',
+        linkedIn: 'https://www.linkedin.com/in/ngong-ivan-clare/',
+        description: 'DevOps Engineer, Nokia, Paris, France \nAWS Certified Developer Associate \nCertified Kubernetes Administrator',
+        isTruncated: false
+    },
+
+    {
+        id: 6,
+        image: image7,
+        name: 'Angela Lum-neh',
+        title: '',
+        linkedIn: 'https://www.linkedin.com/in/lumnehangela/',
+        description: 'Data Scientist, DataGend, Dallas, Texas, United States\nFounder, Opportunity Space 237',
+        isTruncated: false
+    },
+
+    {
+        id: 7,
+        image: image8,
+        name: 'Perside Rosalie',
+        title: '',
+        linkedIn: 'https://www.linkedin.com/in/perside-rosalie/',
+        description: 'Full-stack Developer at Wikimedia Deutschland',
+        isTruncated: false
+    },
 
 ];

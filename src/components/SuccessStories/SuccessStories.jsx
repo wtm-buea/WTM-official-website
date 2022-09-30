@@ -48,8 +48,8 @@ function SuccessStories() {
                   </span>
                 </span>
               </div>
-              <div className="card-body">
-                <Truncate className="card-text text-justify"
+              <div className="card-desc text-justify">
+                <Truncate
                   lines={!expanded && 8}
                   ellipsis={<span>... <button onClick={toggleLines} className="text-primary btn">more</button></span>}
                   onTruncate={handleTruncate}
