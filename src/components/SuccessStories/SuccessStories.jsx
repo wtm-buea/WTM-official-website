@@ -20,20 +20,20 @@ function SuccessStories() {
   return (
     <>
       <Navbar styles="navWrapperLight" />
-      <div className="list container">
+      <div className="story-list container">
         <h1 className="display-2 font-weight-normal text-dark page-heading">Success Stories</h1>
         <div className="row">
           {stories.map((item) => (
             <div
-              className="card col-sm-12 col-md-5 list-item"
+              className="card col-sm-12 col-md-5 story-list-item"
               key={item.id}
             >
-              <div className="card-header d-flex list-item-header bg-white">
+              <div className="card-header d-flex story-list-item-header bg-white">
                 <img
                   src={item.image}
                   alt="item-img"
                 />
-                <span className="list-item-header-text">
+                <span className="story-list-item-header-text">
                   <span className="name-text">
                     {item.name}
                   </span>
@@ -42,7 +42,7 @@ function SuccessStories() {
                   </span>
                   <span className="connect">
                     <small className="text-primary">connect </small>
-                    <a href={item.linkedIn}>
+                    <a href={item.linkedIn} target="_blank" rel="noopener noreferrer">
                       <img src={linkedInIcon} alt="linkedInIcon" className="icon-img" />
                     </a>
                   </span>
