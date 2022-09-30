@@ -9,22 +9,22 @@ function ComponentFive() {
     {
       id: 1,
       icon: icon1,
-      num: 120,
-      title: "Events Organised",
+      num: "120",
+      title: "Events organized",
     },
 
     {
       id: 2,
       icon: icon2,
-      num: 25,
-      title: "Awards recieved",
+      num: "25",
+      title: "Awards received",
     },
 
     {
       id: 3,
       icon: icon3,
       num: "600+",
-      title: "impacted members",
+      title: "Impacted members",
     },
   ];
   return (
@@ -57,9 +57,8 @@ function ComponentFive() {
           <p
             className="mt-5 pr-5 why-us-details"
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            We are a community of vibrant ladies passionate about driving innovative change in the techspace.
+            We support and encourage one another through events, meetups, hackathons and mentorships.
           </p>
 
           <div>
@@ -81,8 +80,8 @@ function ComponentFive() {
                   }}
                 >
                   <img src={data.icon} className="data-icon" alt="icon" />
-                  <p className="font-weight-bold num">{data.num}</p>
-                  <p className="font-weight-bold title">{data.title}</p>
+                  <span className="font-weight-bold num d-block">{data.num}</span>
+                  <span className="font-weight-bold title d-block">{data.title}</span>
                 </div>
               );
             })}

@@ -40,18 +40,18 @@ export default function FooterComponent() {
                 <div className="col-sm-5 col-md-3 pt-5">
                     <h2 className="quick-links">Quick Links</h2>
 
-                    <ul className="list">
-                        <li className="list-item">Home</li>
-                        <li className="list-item">About</li>
-                        <li className="list-item">Achievements</li>
-                        <li className="list-item">Why Join?</li>
-                        <li className="list-item">Our Vision</li>
+                    <ul className="link-list">
+                        <li className="link-list-item">Home</li>
+                        <li className="link-list-item">About</li>
+                        <li className="link-list-item">Achievements</li>
+                        <li className="link-list-item">Why Join?</li>
+                        <li className="link-list-item">Our Vision</li>
                     </ul>
                 </div>
                 <div className="col-sm-6 col-md-4 pt-5 p-3">
                     <h2 className="quick-links">Stay in touch</h2>
 
-                    <ul className="list">
+                    <ul className="link-list">
                         <li>Women tech makers Buea</li>
                         <li>
                             <span className="dashed-md">
@@ -62,15 +62,15 @@ export default function FooterComponent() {
                                 <span></span>
                             </span>
                         </li>
-                        <li className="list-icon">
+                        <li className="link-list-icon">
                             <img src={phoneIcon} className="img img-fluid" alt="phone" />
                             <span>675959794</span>
                         </li>
-                        <li className="list-icon">
+                        <li className="link-list-icon">
                             <img src={emailIcon} className="img img-fluid" alt="phone" />
                             <span>wtmbuea@gmail.com</span>
                         </li>
-                        <li className="list-icon">
+                        <li className="link-list-icon">
                             <img src={locationIcon} className="img img-fluid" alt="phone" />
                             <span>Buea,Cameroon</span>
                         </li>

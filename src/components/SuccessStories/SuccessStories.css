@@ -1,0 +1,67 @@
+h1.page-heading {
+  background: linear-gradient(
+    to right,
+    #1ce9b6 52.23%,
+    #f1f4f8 52.23%,
+    #4cadf6 52.23%
+  );
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+
+.story-list {
+    padding-top: 15rem;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+}
+
+.story-list-item {
+    margin-left: 3rem;
+    color: black;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.25);
+}
+
+.story-list-item-header img {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.story-list-item-header-text {
+     margin-left: 1rem;
+}
+
+.story-list-item-header-text .name-text {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+
+.story-list-item-header-text .connect {
+    font-size: 1.8rem;
+    display: block;
+}
+
+.story-list-item-header-text .year {
+     font-size: 1.7rem;
+     display: block;
+}
+
+.card-desc {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+     white-space: pre-wrap;
+}
+
+.story-list-item-header img.icon-img {
+    width: 3rem;
+    height: 3rem;
+}

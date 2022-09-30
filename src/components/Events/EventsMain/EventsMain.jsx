@@ -25,9 +25,7 @@ function EventsMain() {
                         <button
                             onClick={() => {
                                 setEventType("upcoming");
-                                console.log(eventType);
                                 setState(!state);
-                                console.log(state);
                             }}
                         >
                             Upcoming Events

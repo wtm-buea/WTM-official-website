@@ -47,22 +47,21 @@
   font-size: 3rem;
 }
 
-
-.list {
+.link-list {
   list-style-type: none;
   padding: 7rem 2rem 5rem 2rem;
   color: white;
   text-align: justify;
 }
 
-.list li {
+.link-list li {
   margin: 3rem 0;
   font-size: 2rem;
   font-weight: 400;
   text-align: justify;
 }
 
-.list-icon span {
+.link-list-icon span {
   margin-left: 2rem;
 }
 
@@ -105,45 +104,42 @@ div img.logo {
 }
 
 @media only screen and (max-width: 992px) {
-  .quick-links {
-  font-weight: 400;
-  font-size: 3rem;
-}
+    .quick-links {
+    font-weight: 400;
+    font-size: 3rem;
+  }
 
-  .list li {
-  font-size: 2rem;
-}
+    .link-list li {
+    font-size: 2rem;
+  }
 
-.list {
-  padding: 7rem 2rem 5rem 1rem;
-}
+  .link-list {
+    padding: 7rem 2rem 5rem 1rem;
+  }
 
-.dashed-md > span {
-  width: 3rem;
-  height: .5rem;
-}
+  .dashed-md > span {
+    width: 3rem;
+    height: .5rem;
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
-.list li {
-  margin: 1rem 0;
-  font-size: 1.8rem;
-}
+  .link-list li {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+  }
 
-.quick-links {
-  margin-left: 2rem;
-}
+  .quick-links {
+    margin-left: 2rem;
+  }
 
-.quote-box img {
-  width: 80% !important;
-}
+  .quote-box img {
+    width: 80% !important;
+  }
 
-.list-icon span {
-  margin-left: 1rem;
-}
-
-
-
+  .link-list-icon span {
+    margin-left: 1rem;
+  }
 }
 
