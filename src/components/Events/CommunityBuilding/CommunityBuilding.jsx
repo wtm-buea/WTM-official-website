@@ -14,7 +14,7 @@ function CommunityBuilding() {
                     <h3>Community Building</h3>
                     <span>
                         Giving back to the community is something we strongly believe in
-                        so we organise events and give opportunities to ladies to learn and grow in tech.
+                        so we organise events and give opportunities to ladies to learn and grow in technology.
                     </span>
                 </div>
             </div>

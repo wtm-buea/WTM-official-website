@@ -55,8 +55,9 @@ p.why-us-details {
 
 .num {
   color: #1b3c34;
-  font-size: 3.2rem;
+  font-size: 6rem;
   margin-top: .2rem;
+  font-weight: 700;
 }
 
 .data-icon {
