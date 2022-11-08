@@ -64,7 +64,7 @@ export default function FooterComponent() {
                         </li>
                         <li className="link-list-icon">
                             <img src={phoneIcon} className="img img-fluid" alt="phone" />
-                            <span>675959794</span>
+                            <span>+237680497435 / +237650589893</span>
                         </li>
                         <li className="link-list-icon">
                             <img src={emailIcon} className="img img-fluid" alt="phone" />
@@ -95,14 +95,14 @@ export default function FooterComponent() {
                                         alt="facebook"
                                     />
                                 </a>
-                                <a href="/">
+                                <a href="https://twitter.com/WTMBuea" target="_blank" rel="noopener noreferrer">
                                     <img
                                         className="img img-responsive"
                                         src={twitterIcon}
                                         alt="twitter"
                                     />
                                 </a>
-                                <a href="/">
+                                <a href="https://wa.me/+237680497435" target="_blank" rel="noopener noreferrer">
                                     <img
                                         className="img img-responsive"
                                         src={whatsappIcon}

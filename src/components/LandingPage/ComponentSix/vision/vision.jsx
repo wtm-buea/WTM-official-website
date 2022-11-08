@@ -7,15 +7,20 @@ function Vision() {
         <div className="container-fluid vision-main">
             <div className="row">
                 <div className="col-sm-12 col-md-6 our-vision-text">
-                    <h2 className="heading-secondary-1">Our Vision</h2>
+                    <h2 className="heading-secondary-1">Our Mission</h2>
                     <span
                         className="underline-normal"
                         style={{ marginBottom: "4rem", marginLeft: ".5rem" }}
                     ></span>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy .
+                        We work to accomplish the following
                     </p>
+                    <ul>
+                        <li>To advance the inclusion of women and girls in technology careers;</li>
+                        <li>To promote ICT-related capacity-building programs;</li>
+                        <li>To build a Cameroon where all women and girls thrive in technology;</li>
+                        <li>To provide visibility, community, and resources for women and girls in Technology;</li>
+                    </ul>
                     <div>
                         <button
                             type="button"
