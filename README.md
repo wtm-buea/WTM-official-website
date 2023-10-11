@@ -45,6 +45,9 @@ Issues will be assigned based on these designs so please make sure to reproduce 
 
 The file structure will have an assets folder in which you will find all necessary images, color codes, and svgs to use.
 
+Also, we have our mvp hosted at https://wtm-website-test.netlify.app/. If you can't set up the project for any reason, do us a favour and
+checkout the work we have done already and submit issues to help improve it.
+
 Go ahead, contribute and have fun.
 
 You will find an Example folder in the code structure which explain how your code should be
