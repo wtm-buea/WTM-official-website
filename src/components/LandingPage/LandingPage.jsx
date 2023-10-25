@@ -6,19 +6,18 @@ import Comp5 from "./ComponentFive/ComponentFive";
 import Comp6 from "./ComponentSix/vision/vision";
 import Comp7 from "./FooterComponent/FooterComponent";
 
-
 function LandingPage() {
-    return (
-        <>
-            <Comp1 styles="navWrapper" />
-            <Comp2 />
-            <Comp3 />
-            <Comp4 />
-            <Comp5 />
-            <Comp6 />
-            <Comp7 />
-        </>
-    )
+  return (
+    <>
+      <Comp1 styles="navWrapper" />
+      <Comp2 />
+      <Comp3 />
+      <Comp4 />
+      <Comp5 />
+      <Comp6 />
+      <Comp7 />
+    </>
+  );
 }
 
 export default LandingPage;

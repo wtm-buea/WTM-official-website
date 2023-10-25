@@ -1,74 +1,87 @@
 .vision-main {
-    padding: 10rem 5rem;
-}
-
-.our-vision-text {
-
+  padding: 10rem 5rem;
 }
 
 .our-vision-text div {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
-h2{
-    line-height: 0.02px;
-    margin-bottom: -5rem;
+h2 {
+  line-height: 0.02px;
+  margin-bottom: -5rem;
 }
 
 p {
-    margin-top: -1rem;
-    color: rgb(112, 110, 108);
-    margin-bottom: 5rem;
-    font-size: 2.5rem; 
-    font-weight: 500;
+  margin-top: -1rem;
+  color: rgb(112, 110, 108);
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
-.btn-primary{
-    border-color: rgba(96, 169, 252, 0.959);
-    background: rgba(96, 169, 252, 0.959); 
+.list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.know-more-btn, .contact-us-btn {
-    font-size: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    margin-bottom: 1rem;
+.list__items li {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+}
+
+.btn-primary {
+  border-color: rgba(96, 169, 252, 0.959);
+  background: rgba(96, 169, 252, 0.959);
+}
+
+.know-more-btn,
+.contact-us-btn {
+  font-size: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 1rem;
 }
 
 .contact-us-btn {
-    border: 1px solid #4CADF6;
-    color: #4CADF6;
+  border: 1px solid #4cadf6;
+  color: #4cadf6;
+}
+
+.contact-us-btn:hover {
+    border-color: #5BC0DE;
+    color: #5BC0DE;
 }
 
 .our-vision-image {
-    margin-top: -7rem;
+  margin-top: -7rem;
 }
 
 @media only screen and (max-width: 992px) {
-    .our-vision-image {
-     margin-top: 0;
-}
-
+  .our-vision-image {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .our-vision-image {
-        display: none;
-    }
+  .our-vision-image {
+    display: none;
+  }
 
-    .our-vision-text div {
-        margin: 0 auto;
-    }
+  .our-vision-text div {
+    margin: 0 auto;
+  }
 
-    .know-more-btn, .contact-us-btn {
-        width: 100%;
-        font-size: 1.5rem;
-        letter-spacing: .5rem;
-    }
+  .know-more-btn,
+  .contact-us-btn {
+    width: 100%;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
 
-    p {
-        font-size: 1.5rem; 
-        font-weight: 400;
-    }
-
+  p {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
 }

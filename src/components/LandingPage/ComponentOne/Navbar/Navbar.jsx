@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import styles from "./Navbar.module.css";
-import logo from "../../../../Assets/images/women_techmakers.png";
+import logo from "../../../../Assets/images/logo.png";
 
 const Navbar = (props) => {
   const routes = ["/", "/events", "/blog", "/success-stories"];
@@ -17,11 +17,11 @@ const Navbar = (props) => {
   };
 
   return (
-    <>
+    <nav>
       <section className={styles[props.styles]}>
-        <section className={styles.logoSection}>
+        <div className={styles.logoSection}>
           <img src={logo} className={styles.logo} alt="logo" />
-        </section>
+        </div>
         <section className={styles.navRight}>
           <section className={styles.navRightChild}>
             <NavLink
@@ -95,7 +95,7 @@ const Navbar = (props) => {
           </div>
         </section>
       </section>
-    </>
+    </nav>
   );
 };
 

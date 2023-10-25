@@ -1,12 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 *,
 **::after,
 **::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Quicksand", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,14 +20,10 @@ body {
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.heading-secondary-1, .heading-secondary-2 {
+.heading-secondary-1,
+.heading-secondary-2 {
   font-weight: 400;
-  color: #5C5A5A;
+  color: #5c5a5a;
 }
 
 .heading-secondary-1 {
@@ -41,27 +37,27 @@ code {
 .underline-normal {
   display: block;
   width: 5rem;
-  height: .5rem;
-  background-color: #1CE9B6;
-  border-radius: .5rem;
+  height: 0.5rem;
+  background-color: #1ce9b6;
+  border-radius: 0.5rem;
   margin-top: 8rem;
 }
 
 .underline-bold {
   display: block;
   width: 7rem;
-  height: .9rem;
-  background-color: #1CE9B6;
-  border-radius: .5rem;
+  height: 0.9rem;
+  background-color: #1ce9b6;
+  border-radius: 0.5rem;
   margin-top: 1rem;
 }
 
 .underline-large {
   display: block;
   width: 12rem;
-  height: .6rem;
-  background-color: #1CE9B6;
-  border-radius: .5rem;
+  height: 0.6rem;
+  background-color: #1ce9b6;
+  border-radius: 0.5rem;
   margin-top: 1rem;
 }
 
@@ -70,7 +66,5 @@ code {
   font-size: 2.5rem;
   line-height: 1.5;
   padding: 0 3rem;
-  font-family: Roboto;
-  color: #5C5A5A;
+  color: #5c5a5a;
 }
-

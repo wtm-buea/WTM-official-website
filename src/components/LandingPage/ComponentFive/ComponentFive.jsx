@@ -1,7 +1,6 @@
 import React from "react";
 import "./Componentfive.css";
 import icon1 from "../../../Assets/icons/clarity_happy-face-line.png";
-import icon2 from "../../../Assets/icons/Vector (1).png";
 import icon3 from "../../../Assets/icons/gis_globe-users.png";
 
 function ComponentFive() {
@@ -9,19 +8,19 @@ function ComponentFive() {
     {
       id: 1,
       icon: icon1,
-      num: "120",
+      num: "120+",
       title: "Events organized",
     },
 
-    {
-      id: 2,
-      icon: icon2,
-      num: "25",
-      title: "Awards received",
-    },
+    // {
+    //   id: 2,
+    //   icon: icon2,
+    //   num: "25",
+    //   title: "Awards received",
+    // },
 
     {
-      id: 3,
+      id: 2,
       icon: icon3,
       num: "600+",
       title: "Impacted members",
@@ -43,8 +42,7 @@ function ComponentFive() {
         </svg>
       </div>
       <div className="main">
-        <div
-        >
+        <div>
           <div>
             <p className="heading text-white font-weight-bold">
               Why you should join our Community
@@ -54,11 +52,10 @@ function ComponentFive() {
               style={{ marginTop: "-3.8rem" }}
             ></span>
           </div>
-          <p
-            className="mt-5 pr-5 why-us-details"
-          >
-            We are a community of vibrant ladies passionate about driving innovative change in the techspace.
-            We support and encourage one another through events, meetups, hackathons and mentorships.
+          <p className="mt-5 pr-5 why-us-details">
+            We are a community of vibrant ladies passionate about driving
+            innovative change in the techspace. We support and encourage one
+            another through events, meetups, hackathons and mentorships.
           </p>
 
           <div>
@@ -68,7 +65,7 @@ function ComponentFive() {
               style={{ marginTop: "-38px" }}
             ></span>
           </div>
-          <div className="row mt-5 analytics-details">
+          <div className="row mt-5 analytics-details cardcontent">
             {dataSet.map((data) => {
               return (
                 <div
@@ -80,8 +77,12 @@ function ComponentFive() {
                   }}
                 >
                   <img src={data.icon} className="data-icon" alt="icon" />
-                  <span className="font-weight-bold num d-block">{data.num}</span>
-                  <span className="font-weight-bold title d-block">{data.title}</span>
+                  <span className="font-weight-bold num d-block">
+                    {data.num}
+                  </span>
+                  <span className="font-weight-bold title d-block">
+                    {data.title}
+                  </span>
                 </div>
               );
             })}
