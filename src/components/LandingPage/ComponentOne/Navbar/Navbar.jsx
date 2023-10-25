@@ -7,6 +7,7 @@ import logo from "../../../../Assets/images/logo.png";
 const Navbar = (props) => {
   const routes = ["/", "/events", "/blog", "/success-stories"];
   const [state, setState] = useState("none");
+  // const path = window.location.pathname;
 
   const toggleDropdown = () => {
     if (state === "none") {
@@ -66,16 +67,26 @@ const Navbar = (props) => {
           <div className={styles.dropdownMenu} style={{ display: state }}>
             <ul>
               <li>
-                <NavLink to={routes[0]} className={({ isActive }) =>
-                  isActive ? styles.activeLink + " " + styles.link : styles.link
-                }>
+                <NavLink
+                  to={routes[0]}
+                  className={({ isActive }) =>
+                    isActive
+                      ? styles.activeLink + " " + styles.link
+                      : styles.link
+                  }
+                >
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to={routes[1]} className={({ isActive }) =>
-                  isActive ? styles.activeLink + " " + styles.link : styles.link
-                }>
+                <NavLink
+                  to={routes[1]}
+                  className={({ isActive }) =>
+                    isActive
+                      ? styles.activeLink + " " + styles.link
+                      : styles.link
+                  }
+                >
                   Events
                 </NavLink>
               </li>
@@ -85,9 +96,14 @@ const Navbar = (props) => {
                 </NavLink>
               </li> */}
               <li>
-                <NavLink to={routes[3]} className={({ isActive }) =>
-                  isActive ? styles.activeLink + " " + styles.link : styles.link
-                }>
+                <NavLink
+                  to={routes[3]}
+                  className={({ isActive }) =>
+                    isActive
+                      ? styles.activeLink + " " + styles.link
+                      : styles.link
+                  }
+                >
                   Success Stories
                 </NavLink>
               </li>

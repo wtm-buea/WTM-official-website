@@ -1,3 +1,4 @@
+
 .navWrapper {
   background-color: transparent;
   display: flex;
@@ -23,12 +24,14 @@
   top: 0;
   left: 0;
   right: 0;
-  padding-top: 3rem;
+  padding-block: 3rem;
   padding-left: 1rem;
   z-index: 1;
   justify-content: space-between;
   height: 15vh;
   max-width: 150%;
+  align-items: center;
+  isolation: isolate;
 }
 
 .logoSection {
@@ -47,9 +50,10 @@
 
 .navRightChild .link {
   color: #d1c3c3;
+  font-family: "Quicksand", sans-serif;
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 3rem;
   transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
@@ -64,7 +68,7 @@
 }
 
 .navWrapperLight .navRightChild .link:hover {
-  color: #000;
+  color: #1ce9b6;
   border: 0;
 }
 

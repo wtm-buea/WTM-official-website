@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Vision() {
   const subject = "Hello from WTM Website";
   const body = "Wanna say hello";
-  const recipientEmail = "ekeinchiaemmanuela@gmail.com";
+  const recipientEmail = "wtmbuea@gmail.com";
 
   const handleSendEmail = () => {
     const isGmail = /.*@gmail\.com$/.test(recipientEmail);
