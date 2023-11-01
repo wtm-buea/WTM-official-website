@@ -43,9 +43,9 @@ export default function FooterComponent() {
                     <ul className="link-list">
                         <li className="link-list-item">Home</li>
                         <li className="link-list-item">About</li>
+                        <li className="link-list-item">Our Vision</li>
                         <li className="link-list-item">Achievements</li>
                         <li className="link-list-item">Why Join?</li>
-                        <li className="link-list-item">Our Vision</li>
                     </ul>
                 </div>
                 <div className="col-sm-6 col-md-4 pt-5 p-3">

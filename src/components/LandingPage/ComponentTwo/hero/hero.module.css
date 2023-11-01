@@ -21,14 +21,14 @@
 }
 
 .heroText {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
 }
 
 .heroText h1 {
     font-size: 6rem;
-    line-height: 8rem;
+    line-height: 130%;
+    /* font-family: "Quicksand sans-serif" */
 }
 
 .heroText section {
@@ -37,7 +37,7 @@
     justify-content: space-between;
     width: 30%;
     font-size: 3rem;
-    font-family: 'Roboto';
+    /* font-family: "Quicksand, sans-serif" */
 }
 
 .heroText section div {
