@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Truncate from "react-truncate";
 import Navbar from "../LandingPage/ComponentOne/Navbar/Navbar";
 import "./SuccessStories.css";
 import { stories } from "./stories.data";
@@ -55,7 +54,7 @@ function SuccessStories() {
                 </span>
               </div>
               <div className="card-desc text-justify">
-                <Truncate
+                {/* <Truncate
                   lines={!item.isTruncated && 8}
                   ellipsis={
                     <span>
@@ -71,7 +70,7 @@ function SuccessStories() {
                   onTruncate={handleTruncate}
                 >
                   {item.description}
-                </Truncate>
+                </Truncate> */}
                 {!truncated && item.isTruncated && (
                   <span>
                     {" "}

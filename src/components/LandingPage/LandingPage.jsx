@@ -5,6 +5,7 @@ import Comp4 from "./ComponentFour/Comp4";
 import Comp5 from "./ComponentFive/ComponentFive";
 import Comp6 from "./ComponentSix/vision/vision";
 import Comp7 from "./FooterComponent/FooterComponent";
+import React from "react";
 
 function LandingPage() {
   return (
