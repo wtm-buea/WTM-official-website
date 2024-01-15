@@ -6,10 +6,10 @@ function CommunityBuilding() {
   return (
     <div className="container-fluid section-community-building">
       <div className="row">
-        <div className="d-none d-md-block col-md-6 illustration-box">
+        <div className="col-sm-12 d-md-absolute col-md illustration-box">
           <img src={img} alt="community_illustration" />
         </div>
-        <div className="col-sm-12 col-md-6 section-description">
+        <div className="col-sm-12 col-md section-description">
           <h3>Community Building</h3>
           <span>
             Giving back to the community is something we strongly believe in so
