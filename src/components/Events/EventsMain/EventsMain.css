@@ -11,9 +11,9 @@
 }
 
 .events-tab button {
-  background: none!important;
+  background: none !important;
   border: none;
-  padding: 0!important;
+  padding: 0 !important;
   color: black;
   font-size: 2.5rem;
 }
@@ -95,7 +95,7 @@
   }
 
   .events-container p {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-right: 4rem;
   }
 }
