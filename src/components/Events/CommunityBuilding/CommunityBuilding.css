@@ -59,6 +59,10 @@
     margin-bottom: 5rem;
     width: 100%;
   }
+  .illustration-box img {
+    height: 50vh;
+    width: 100%;
+  }
 
   .section-description span {
     font-size: 2rem;

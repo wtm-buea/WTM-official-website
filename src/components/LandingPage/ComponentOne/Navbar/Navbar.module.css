@@ -1,4 +1,3 @@
-
 .navWrapper {
   background-color: transparent;
   display: flex;
@@ -39,12 +38,14 @@
 }
 
 .logo {
-  width: 100%;
+  width: 200%;
+  height: 200px;
 }
 
 .navRight {
   min-width: 30%;
   justify-content: space-between;
+  gap: 20px;
   display: flex;
 }
 
@@ -114,6 +115,11 @@
 
   .logoSection {
     width: 30%;
+  }
+  .logo {
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
   }
 
   .hamburgerIcon {

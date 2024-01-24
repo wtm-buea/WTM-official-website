@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Truncate from "react-truncate";
 import Navbar from "../LandingPage/ComponentOne/Navbar/Navbar";
 import "./SuccessStories.css";
 import { stories } from "./stories.data";
 import linkedInIcon from "../../Assets/icons/icon_linkedIn.jpg";
+import FooterComponent from "../LandingPage/FooterComponent/FooterComponent";
 
 function SuccessStories() {
   const [truncated, setTruncated] = useState(false);
@@ -55,7 +55,7 @@ function SuccessStories() {
                 </span>
               </div>
               <div className="card-desc text-justify">
-                <Truncate
+                {/* <Truncate
                   lines={!item.isTruncated && 8}
                   ellipsis={
                     <span>
@@ -71,7 +71,7 @@ function SuccessStories() {
                   onTruncate={handleTruncate}
                 >
                   {item.description}
-                </Truncate>
+                </Truncate> */}
                 {!truncated && item.isTruncated && (
                   <span>
                     {" "}
@@ -88,6 +88,7 @@ function SuccessStories() {
           ))}
         </div>
       </div>
+      <FooterComponent />
     </>
   );
 }
