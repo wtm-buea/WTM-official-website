@@ -3,7 +3,7 @@ import img1 from "../../../../Assets/images/DD-2023.jpg";
 import img2 from "../../../../Assets/images/outreachy-2023.jpeg";
 import img3 from "../../../../Assets/images/DD-2023.jpg";
 import img4 from "../../../../Assets/images/iwd-2023.jpeg";
-// import img3 from "../../../../Assets/images/DD-2023.jpg";
+import img5 from "../../../../Assets/images/DareToBe-challenge-2023.jpeg";
 import "../EventsMain.css";
 
 function PastEvents(props) {
@@ -56,7 +56,7 @@ function PastEvents(props) {
         </div>
         <div className="row">
           <div className="col-md">
-            <img className=" img-fluid" src={img3} alt="Girls seated" />
+            <img className=" img-fluid" src={img5} alt="Girls seated" />
           </div>
           <div className="col-md event-description">
             <h5 className="font-weight-bold">
@@ -86,7 +86,7 @@ function PastEvents(props) {
               <span>Eco tourism Hall Buea, CM</span>
             </h5>
             <h4 className="display-4 font-weight-normal">
-              International Women's Day
+              International Women's Day: Dare To Be
             </h4>
             <p className="text-lg-left words">
               International Women's day is a yearly event organised by Women

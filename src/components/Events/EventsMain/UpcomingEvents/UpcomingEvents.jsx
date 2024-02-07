@@ -47,12 +47,20 @@ function UpcomingEvents(props) {
             <h5 className="font-weight-bold">
               April 13, 2024 - IWD-2024 - <span>Buea, CM</span>
             </h5>
-            <h4 className="display-4 font-weight-normal">
+            <a
+              href="https://gdg.community.dev/events/details/google-gdg-buea-presents-wtm-buea-iwd-2024-impact-the-future/"
+              className="display-4 font-weight-normal"
+            >
               International Women's Day 2024: Impact the Future
-            </h4>
+            </a>
             <p className="text-lg-left words">
-              Ateliers ou les femmes ayant reussi dans le monde de technologie
-              viennet partager avec nous leurs experiences et
+              International Women's day is a yearly event organised by Women
+              Tech Makers Buea. It is usually our biggest event of the year. It
+              features hands-on coding workshops, inspiring speakers, and
+              networking opportunities. The theme for this year is Impact the
+              Future which challenges WTM BUEA community to go beyond its
+              boundaries and impact a lot more members, thus Contribute more to
+              the tech industry.
             </p>
           </div>
         </div>

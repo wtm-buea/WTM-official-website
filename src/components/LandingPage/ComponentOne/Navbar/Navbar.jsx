@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 import logo from "../../../../Assets/images/logo.png";
 
 const Navbar = (props) => {
-  const routes = ["/", "/events", "/blog", "/success-stories"];
+  const routes = ["/", "/events", "/blog", "/success-stories", "/team"];
   const [state, setState] = useState("none");
   // const path = window.location.pathname;
 
@@ -59,6 +59,16 @@ const Navbar = (props) => {
               Success Stories
             </NavLink>
           </section>
+          <section className={styles.navRightChild}>
+            <NavLink
+              to={routes[4]}
+              className={({ isActive }) =>
+                isActive ? styles.activeLink + " " + styles.link : styles.link
+              }
+            >
+              Team
+            </NavLink>
+          </section>
         </section>
         <section className={styles.dropdownContainer}>
           <span className={`${styles.hamburgerIcon}`} onClick={toggleDropdown}>
@@ -105,6 +115,18 @@ const Navbar = (props) => {
                   }
                 >
                   Success Stories
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to={routes[4]}
+                  className={({ isActive }) =>
+                    isActive
+                      ? styles.activeLink + " " + styles.link
+                      : styles.link
+                  }
+                >
+                  Meet the Team
                 </NavLink>
               </li>
             </ul>

@@ -2,10 +2,9 @@ import image1 from "../../Assets/images/mpara_faith.jpg";
 import image2 from "../../Assets/images/daisy_nkweteyim.jpg";
 import image3 from "../../Assets/images/tambe_tabitha.jpg";
 import image4 from "../../Assets/images/amanda_shafack.jpg";
-import image5 from "../../Assets/images/diane_wilma.jpg";
-import image6 from "../../Assets/images/ngong_ivan.jpg";
-import image7 from "../../Assets/images/angelah_lum_neh.jpg";
-import image8 from "../../Assets/images/perside_rosalie.jpg";
+import image5 from "../../Assets/images/nasah-kuma.jpg";
+import image6 from "../../Assets/images/menekam-rudy.jpeg";
+import image7 from "../../Assets/images/nyenti-gilda.jpeg";
 import image9 from "../../Assets/images/tiku_gaelle.jpeg";
 import image10 from "../../Assets/images/jenniline.jpeg";
 
@@ -17,7 +16,7 @@ export const stories = [
     title: "Pioneer Community lead 2015 - 2017",
     linkedIn: "https://www.linkedin.com/in/mparafaith/",
     description:
-      "As a student of FET in the University of Buea, Mpara Faith demonstrated interest in computer programming and as a result was appointed Pioneer community lead for WTM Buea, and led the Community through its first phase of existence until she graduated and handed over to Shafack Amanda. With the inspiration gained from the WTM community of Women, Mpara has pursued a successful career in entrepreneurship and software development. She became co-founder of one of Silicon Mountain’s startups - New Generation Technologies, LLC and also the recipient and participant of 2019 Obama Leader, amongst other remarkable achievements.",
+      "WTM Buea gave me the first opportunity to lead a women’s empowerment group. The most valuable gift was the leadership team at the time and the amazing transition we have experienced ever since. Special thanks to Nkweteyim Daisy, Sandra Emma Nsiany, Ngong Ivan, Ringnyu Melvis, Lum-neh Angela, Amah Praises, Tonia Nkeangyi, and Ngong Ivoline for being the best pioneer leadership team that WTM could ever ask for. WTM continues to inspire and reminds me that there is no limit to what committed people can achieve. To every past and current lead or ambassador, including Shafack Amanda, Tambe Tabitha, Jenniline Ebai, Tiku Gaelle, and countless others, you are the reason we celebrate today. Every block you laid, message you sent, event you organized, and presentation you made led to this day. You are an integral part and the reason for everything I see as success in WTM today and every day",
     isTruncated: false,
   },
 
@@ -32,16 +31,16 @@ export const stories = [
     isTruncated: false,
   },
 
-  {
-    id: 2,
-    image: image2,
-    name: "Daisy Nkweteyim",
-    title: "Poineer organising team member",
-    linkedIn: "https://www.linkedin.com/in/daisy-nkweteyim-6a759983/",
-    description:
-      "Nkweteyim Daisy became a member of WTM Buea during her early years at the University of Buea in the Faculty of Engineering. Her interest in computer programming was intensified with the community spirit and led her to be a 3 time Google Summer of Code student in her university days, which greatly increased her profile and led her to several scholarships and opportunities. Her most remarkable achievement is being a Data Engineer at Amazon, Seattle, Washington, United States",
-    isTruncated: false,
-  },
+  // {
+  //   id: 2,
+  //   image: image2,
+  //   name: "Daisy Nkweteyim",
+  //   title: "Poineer organising team member",
+  //   linkedIn: "https://www.linkedin.com/in/daisy-nkweteyim-6a759983/",
+  //   description:
+  //     "Nkweteyim Daisy became a member of WTM Buea during her early years at the University of Buea in the Faculty of Engineering. Her interest in computer programming was intensified with the community spirit and led her to be a 3 time Google Summer of Code student in her university days, which greatly increased her profile and led her to several scholarships and opportunities. Her most remarkable achievement is being a Data Engineer at Amazon, Seattle, Washington, United States",
+  //   isTruncated: false,
+  // },
 
   {
     id: 3,
@@ -69,53 +68,43 @@ export const stories = [
     id: 5,
     image: image9,
     name: "Tiku Gaelle",
-    title: "Co-Ambassador November 2021 - present",
+    title: "Ambassador November 2021 - Present",
     linkedIn: " https://www.linkedin.com/in/tiku-brenda-gaelle-2288a817b/",
     description:
-      "Tiku Gaelle is a software engineer specializing in front end and mobile application development. She is passionate about using technology to solve social problems and empowering women and girls in tech. She is a go getter, a great team player and has a great zeal to get things done appropriately and on time. She is optimistic, and seeks to add value to whatever project she handles or is a part of.",
+      "Being a part of the WTM community has been nothing short of amazing. In addition to meeting exceptional people in the tech field, I got the opportunity to impact the lives and tech journeys of so many ladies through mentorships, events, bootcamps, competitions and much more.",
     isTruncated: false,
   },
 
   {
     id: 6,
     image: image5,
-    name: "Diane-Wilma Temeching",
-    title: "Pioneer organizer team member",
-    linkedIn: "https://www.linkedin.com/in/diane-wilma-temeching/",
+    name: "Mantoh Nasah Kuma",
+    title: "Software Engineer",
+    linkedIn: "https://www.linkedin.com/in/mantoh-nasah-kuma-6b8295145",
     description:
-      "Techwomen Fellow\nSoftware Developer, GFT Group, Quebec, Canada",
+      "WTM Buea is a great community.  I am grateful for the opportunity be among women who are thirsty for success and determined to support one another as they journey to the top. I have learned to share, to be a sister's keeper and above all to dare. ",
     isTruncated: false,
   },
 
   {
     id: 7,
     image: image6,
-    name: "Ngong Ivan",
-    title: "",
-    linkedIn: "https://www.linkedin.com/in/ngong-ivan-clare/",
+    name: "Menekam Rudy",
+    title: "Front End Developer/ Designer",
+    linkedIn: "https://www.linkedin.com/in/menekam-rudy/",
     description:
-      "DevOps Engineer, Nokia, Paris, France \nAWS Certified Developer Associate \nCertified Kubernetes Administrator",
+      "Joining Women Techmakers was a turning point in my tech journey. It connected me with a vibrant community of inspiring women who shared same passion for technology. Workshops got me skilled, hackathons built my teamwork, and the community fueled my passion.  I'm now a Frontend Developer/ Designer and so grateful for the support and inspiration! ✨      ",
     isTruncated: false,
   },
 
   {
     id: 8,
     image: image7,
-    name: "Angela Lum-neh",
-    title: "",
-    linkedIn: "https://www.linkedin.com/in/lumnehangela/",
+    name: "Nyenti Precious Gilda Ayukotang",
+    title: "Full stack Developer",
+    linkedIn: "https://www.linkedin.com/in/nyenti-precious-gilda-1744a9232",
     description:
-      "Data Scientist, DataGend, Dallas, Texas, United States\nFounder, Opportunity Space 237",
-    isTruncated: false,
-  },
-
-  {
-    id: 9,
-    image: image8,
-    name: "Perside Rosalie",
-    title: "",
-    linkedIn: "https://www.linkedin.com/in/perside-rosalie/",
-    description: "Full-stack Developer at Wikimedia Deutschland",
+      "Thanks to Women Tech Makers Buea, I've had the incredible opportunity to develop my leadership skills and expand my network by meeting inspiring women in tech. Through their programs and events, I've gained valuable experience and mentorship that have empowered me to grow as a leader in the tech industry. Additionally, their support has helped me improve my public speaking skills, allowing me to confidently share my ideas and expertise with others. Women Tech Makers Buea has truly been instrumental in my professional development, and I'm excited to continue making an impact in the tech community.      ",
     isTruncated: false,
   },
 ];

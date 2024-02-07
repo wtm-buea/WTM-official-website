@@ -4,6 +4,10 @@
   padding-top: 3rem;
   max-width: 100vw;
 }
+.linkedin {
+  fill: white;
+  stroke: white;
+}
 
 .quote-box {
   background-color: #495573;
@@ -67,7 +71,7 @@
   -o-transition: 0.2s ease-in-out;
 }
 
-.link-list li:hover{
+.link-list li:hover {
   color: #d1c3c3;
 }
 
@@ -93,33 +97,35 @@ div img.logo {
   width: 50%;
 }
 
-.dashed-md, .dashed-sm {
+.dashed-md,
+.dashed-sm {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
 }
 
-.dashed-md > span, .dashed-sm > span {
-  background-color:#c4c4c4;
+.dashed-md > span,
+.dashed-sm > span {
+  background-color: #c4c4c4;
 }
 
 .dashed-md > span {
   width: 5rem;
-  height: .5rem;
+  height: 0.5rem;
 }
 
 .dashed-sm > span {
   width: 3rem;
-   height: .8rem;
+  height: 0.8rem;
 }
 
 @media only screen and (max-width: 992px) {
-    .quick-links {
+  .quick-links {
     font-weight: 400;
     font-size: 3rem;
   }
 
-    .link-list li {
+  .link-list li {
     font-size: 2rem;
   }
 
@@ -129,9 +135,8 @@ div img.logo {
 
   .dashed-md > span {
     width: 3rem;
-    height: .5rem;
+    height: 0.5rem;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -152,4 +157,3 @@ div img.logo {
     margin-left: 1rem;
   }
 }
-
