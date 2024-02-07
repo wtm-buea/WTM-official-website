@@ -34,7 +34,7 @@ const Team = () => {
         </div>
         <div className="profileCard">
           <img className="imgCard" src={img4} alt="tiku-gaelle" />
-          <h3>Tabot Quinuel Ndip</h3>
+          <h3> Quinuel Ndip-Agobor</h3>
           <h5>Technology lead </h5>
         </div>
       </div>
