@@ -3,7 +3,7 @@ import "./team.css";
 import img from "../../Assets/images/tiku_gaelle.jpeg";
 import img2 from "../../Assets/images/nyenti-gilda.jpeg";
 import img3 from "../../Assets/images/tiku_gaelle.jpeg";
-import img4 from "../../Assets/images/tiku_gaelle.jpeg";
+import img4 from "../../Assets/images/tabot-quinuel.jpeg";
 import img5 from "../../Assets/images/nyando-onongene.jpg";
 import img6 from "../../Assets/images/kouti-divine.jpg";
 import img7 from "../../Assets/images/kedju-precious.jpg";
@@ -33,7 +33,7 @@ const Team = () => {
           <h5>Logistics Coordinator </h5>
         </div>
         <div className="profileCard">
-          <img className="imgCard" src={img} alt="tiku-gaelle" />
+          <img className="imgCard" src={img4} alt="tiku-gaelle" />
           <h3>Tabot Quinuel Ndip</h3>
           <h5>Technology lead </h5>
         </div>
