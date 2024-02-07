@@ -6,8 +6,9 @@ import phoneIcon from "../../../Assets/icons/phone-icon.svg";
 import React from "react";
 import fbIcon from "../../../Assets/icons/facebook-icon.svg";
 import twitterIcon from "../../../Assets/icons/twitter-icon.svg";
-// import whatsappIcon from "../../../Assets/icons/whatsapp-icon.svg";
+import whatsappIcon from "../../../Assets/icons/whatsapp-icon.svg";
 import slackIcon from "../../../Assets/icons/slack-icon.svg";
+import linkedinIcon from "../../../Assets/icons/linkedin.svg";
 
 export default function FooterComponent() {
   return (
@@ -62,7 +63,7 @@ export default function FooterComponent() {
             </li>
             <li className="link-list-icon">
               <img src={phoneIcon} className="img img-fluid" alt="phone" />
-              <span>+237680497435 / +237650589893</span>
+              <span>+237620111693 / +237650589893</span>
             </li>
             <li className="link-list-icon">
               <img src={emailIcon} className="img img-fluid" alt="phone" />
@@ -84,13 +85,13 @@ export default function FooterComponent() {
             </li>
             <li>
               <div className="social-container">
-                <a href="/">
+                {/*<a href="/">
                   <img
                     className="img img-responsive"
                     src={fbIcon}
                     alt="facebook"
                   />
-                </a>
+                </a> */}
                 <a
                   href="https://twitter.com/WTMBuea"
                   target="_blank"
@@ -103,20 +104,20 @@ export default function FooterComponent() {
                   />
                 </a>
                 <a
-                  href="https://wa.me/+237680497435"
+                  href="https://wa.me/+237650589893"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {/* <img
+                  <img
                     className="img img-responsive"
                     src={whatsappIcon}
                     alt="whatsapp"
-                  /> */}
+                  />
                 </a>
                 <a href="/">
                   <img
-                    className="img img-responsive"
-                    src={slackIcon}
+                    className="img img-responsive linkedin"
+                    src={linkedinIcon}
                     alt="slack"
                   />
                 </a>

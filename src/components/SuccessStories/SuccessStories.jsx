@@ -55,6 +55,7 @@ function SuccessStories() {
                 </span>
               </div>
               <div className="card-desc text-justify">
+                {item.description}
                 {/* <Truncate
                   lines={!item.isTruncated && 8}
                   ellipsis={
@@ -72,7 +73,7 @@ function SuccessStories() {
                 >
                   {item.description}
                 </Truncate> */}
-                {!truncated && item.isTruncated && (
+                {/* {!truncated && item.isTruncated && (
                   <span>
                     {" "}
                     <button
@@ -82,7 +83,7 @@ function SuccessStories() {
                       less
                     </button>
                   </span>
-                )}
+                )} */}
               </div>
             </div>
           ))}

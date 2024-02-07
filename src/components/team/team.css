@@ -1,0 +1,25 @@
+.imgCard {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #1ce9b6;
+}
+.sizedbox1 {
+  height: 200px;
+}
+.sizedbox2 {
+  height: 100px;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  gap: 25px;
+}
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
