@@ -1,8 +1,8 @@
 import Navbar from "../LandingPage/ComponentOne/Navbar/Navbar";
 import "./team.css";
-import img from "../../Assets/images/tiku_gaelle.jpeg";
+import img from "../../Assets/images/tiku-gaelle.jpeg";
 import img2 from "../../Assets/images/nyenti-gilda.jpeg";
-import img3 from "../../Assets/images/tiku_gaelle.jpeg";
+import img3 from "../../Assets/images/emily-ashley.jpeg";
 import img4 from "../../Assets/images/tabot-quinuel.jpeg";
 import img5 from "../../Assets/images/nyando-onongene.jpg";
 import img6 from "../../Assets/images/kouti-divine.jpg";
@@ -28,13 +28,13 @@ const Team = () => {
           <h5>Social Media & Content Creator/ PR</h5>
         </div>
         <div className="profileCard">
-          <img className="imgCard" src={img} alt="tiku-gaelle" />
+          <img className="imgCard" src={img3} alt="tiku-gaelle" />
           <h3>Efonde Emily Ashley</h3>
           <h5>Logistics Coordinator </h5>
         </div>
         <div className="profileCard">
           <img className="imgCard" src={img4} alt="tiku-gaelle" />
-          <h3> Quinuel Ndip-Agobor</h3>
+          <h3> Quinuel Ndip-Agbor</h3>
           <h5>Technology lead </h5>
         </div>
       </div>
