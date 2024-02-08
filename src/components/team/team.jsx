@@ -21,7 +21,7 @@ const Team = () => {
         <h5>Community Ambassador</h5>
       </div>
       <br /> <br />
-      <div className=" container">
+      <div className="teamContainer">
         <div className="profileCard">
           <img className="imgCard" src={img2} alt="tiku-gaelle" />
           <h3>Nyenti Precious Gilda</h3>
@@ -39,7 +39,7 @@ const Team = () => {
         </div>
       </div>
       <br />
-      <div className="container">
+      <div className="teamContainer">
         <div className="profileCard">
           <img className="imgCard" src={img5} alt="tiku-gaelle" />
           <h3>Nyando Onongene</h3>
@@ -53,7 +53,7 @@ const Team = () => {
         <div className="profileCard">
           <img className="imgCard" src={img7} alt="tiku-gaelle" />
           <h3>Kedju Precious</h3>
-          <h5>Technology ORganizer </h5>
+          <h5>Technology Organizer </h5>
         </div>
       </div>
     </>

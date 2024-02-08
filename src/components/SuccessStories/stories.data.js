@@ -57,7 +57,7 @@ export const stories = [
     id: 4,
     image: image10,
     name: "Jenniline Ebai Agbor",
-    title: "Co-Ambassador November 2021 - 2023",
+    title: "Community Lead November 2021 - 2023",
     linkedIn: "https://www.linkedin.com/in/jenniline-ebai-6a7881174/",
     description:
       "Jenniline is currently one of our Ambassadors since November 2021. She is a University Graduate with a B.Eng in Computer Engineering from the University of Buea, Faculty of Engineering and Technology. As a Freshman in the University, Jenniline was intrigued by the marvelous happenings in the tech environment going on in Buea around her, and so she decided to be a part of it. She joined tech communities around her and loved volunteering for Google Women Techmakers and Facebook Developer Circles. In no time she began to participate in trainings and workshops where she developed her coding skills and immediately got into open source contributions. In 2019, her second year in the University she was selected for the Outreachy diversity inclusion internship at an open source Organization.She continued her open source journey and in 2021 she was selected for Google Summer of Code at CiviCRM open source organization.In November of 2021 she officially became co- ambassador for Women Techmakers Buea and ever since then she has been instrumental in the community’s growth and progress.By giving speeches and talks about Women in Technology at schools, Universities and tech events.Organizing trainings for WTM and partnering with other tech companies and organizations offering trainings and opportunities so that WTM Buea members can benefit.",
@@ -67,8 +67,8 @@ export const stories = [
   {
     id: 5,
     image: image9,
-    name: "Tiku Gaelle",
-    title: "Ambassador November 2021 - Present",
+    name: "Tiku Brenda Gaelle",
+    title: "Community Lead November 2021 - Present",
     linkedIn: " https://www.linkedin.com/in/tiku-brenda-gaelle-2288a817b/",
     description:
       "Being a part of the WTM community has been nothing short of amazing. In addition to meeting exceptional people in the tech field, I got the opportunity to impact the lives and tech journeys of so many ladies through mentorships, events, bootcamps, competitions and much more.",

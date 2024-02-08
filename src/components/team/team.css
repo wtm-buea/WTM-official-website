@@ -10,7 +10,7 @@
 .sizedbox2 {
   height: 100px;
 }
-.container {
+.teamContainer {
   align-items: center;
   display: flex;
   flex-direction: row;
