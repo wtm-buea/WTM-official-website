@@ -1,3 +1,11 @@
+.teamPageHeading {
+  background: linear-gradient(to right, #1ce9b6 52.23%, #f1f4f8 52.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #1ce9b6;
+}
+
 .imgCard {
   width: 300px;
   height: 300px;

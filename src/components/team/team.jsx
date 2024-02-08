@@ -13,7 +13,10 @@ const Team = () => {
     <>
       <Navbar styles="navWrapperLight" />
       <div className="sizedbox1"></div>
-      <h2> Meet our team</h2>
+      <h2 className="teamPageHeading display-3 text-dark container">
+        {" "}
+        Meet our team
+      </h2>
       <div className="sizedbox2"></div>
       <div className="profileCard">
         <img className="imgCard" src={img} alt="tiku-gaelle" />
@@ -21,7 +24,7 @@ const Team = () => {
         <h5>Community Ambassador</h5>
       </div>
       <br /> <br />
-      <div className="teamContainer">
+      <div className="teamContainer container">
         <div className="profileCard">
           <img className="imgCard" src={img2} alt="tiku-gaelle" />
           <h3>Nyenti Precious Gilda</h3>
@@ -39,7 +42,7 @@ const Team = () => {
         </div>
       </div>
       <br />
-      <div className="teamContainer">
+      <div className="teamContainer container">
         <div className="profileCard">
           <img className="imgCard" src={img5} alt="tiku-gaelle" />
           <h3>Nyando Onongene</h3>
