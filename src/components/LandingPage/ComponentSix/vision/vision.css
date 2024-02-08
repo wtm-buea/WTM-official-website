@@ -50,8 +50,8 @@ p {
 }
 
 .contact-us-btn:hover {
-    border-color: #5BC0DE;
-    color: #5BC0DE;
+  border-color: #5bc0de;
+  color: #5bc0de;
 }
 
 .our-vision-image {
@@ -81,7 +81,7 @@ p {
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 }
