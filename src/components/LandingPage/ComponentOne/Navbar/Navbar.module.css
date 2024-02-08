@@ -10,7 +10,7 @@
   z-index: 1;
   justify-content: space-between;
   height: 10vh;
-  max-width: 100%;
+  /* max-width: 100%; */
   align-items: center;
   isolation: isolate;
 }
@@ -28,7 +28,7 @@
   z-index: 1;
   justify-content: space-between;
   height: 15vh;
-  max-width: 150%;
+  max-width: 200%;
   align-items: center;
   isolation: isolate;
 }

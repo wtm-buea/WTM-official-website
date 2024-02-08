@@ -48,8 +48,9 @@ span.achievement-details {
 
 @media only screen and (max-width: 480px) {
   img.group-image2 {
-    width: 60vw;
+    width: 80vw;
     display: block;
+    border-radius: 20px;
   }
   img.group-image1 {
     display: none;
